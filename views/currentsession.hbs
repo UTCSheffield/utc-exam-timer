@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {{> head }}
+  <body class="center">    
+    {{> header }}
+    <main>  
+      {{> session }}    
+    </main>
+    <footer>
+      <nav>
+        <a href="/">home</a> 
+        <a href="/current">current</a>
+         ( {{#each rooms as |room|}}
+           <a href="/current/room/{{ room }}">{{ room }}</a>                {{/each}} )
+         <a href="/session/{{next}}">next</a>
+      </nav>
+    </footer>
+  </body>
+</html>
