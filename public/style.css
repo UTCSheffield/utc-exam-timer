@@ -1,0 +1,137 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 3vh;
+}
+
+main {
+}
+
+h1,
+.h1 {
+  font-weight: bold;
+  j-font-size: 2em;
+  margin: 0.2em 0;
+}
+
+h2,
+.h2 {
+  font-size: 1.5em;
+  /*font-size: 2em;*/
+  margin: 0.2em 0;
+}
+
+/*p, li {
+  max-width: 45vw;
+}*/
+
+table {
+  font-size: 125%;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.glitchButton {
+  float: Right;
+}
+
+table {
+  vertical-align: bottom;
+}
+
+th {
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container div {
+  background-color: #2196f399;
+  margin: 1vh;
+  padding: 1vh;
+}
+
+.started {
+  background-color: lightgreen;
+  background-opacity: 75%;
+}
+
+.nearly {
+  background-color: orange;
+  background-opacity: 75%;
+}
+
+.done {
+  background-color: rgb(252, 86, 86);
+  background-opacity: 75%;
+}
+
+footer {
+  text-align: right;
+}
+
+ul.h2,
+ul.h3 {
+  padding-inline-start: 1em;
+}
+
+.h2 li,
+.h3 li {
+  margin-bottom: 0px;
+}
+
+.h2 li:only-child,
+.h3 li:only-child {
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.h2:has(> li:only-child),
+.h3:has(> li:only-child) {
+  padding-inline-start: 0px;
+}
+
+.finishtime {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header{
+  font-size:1.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+  }
+  header>h1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-size:2.5em;
+    padding:0px;
+  }
+}
+h3 {
+  font-size: 1.17em;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

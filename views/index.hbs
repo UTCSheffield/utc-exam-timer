@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html  lang="en">
+  {{> head }}
+  <body >
+    
+    <div class="error">
+      <ul>
+      {{log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    
+    <div>
+      <ul>
+        {{#each sessions as |session|}}
+          <li>
+            <a href="session/{{@index}}">{{session.name}}</a>
+            ( {{#each this.groups as |group|}}
+                {{group.name}} : {{!-- x {{group.papers.length}}. --}}
+            {{#each group.papers as |paper|}}
+                {{paper.Subject}} - {{paper.Paper}}.
+            {{/each}}
+            {{/each}}
+            {{!-- {{#each session.rooms as |room|}}
+              <a href="/session/room/{{ room }}/{{@index}}">{{ room }}</a>              
+            {{/each}} --}} )
+          </li>
+        {{/each}}
+        <li>
+          <a href="/current">Current</a>    
+          ( {{#each allrooms as |room|}}
+              <a href="/current/room/{{ room }}">{{ room }}</a>              
+            {{/each}} )
+        </li>
+      </ul>      
+      </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head }}
+  <body>    
+      {{> header }}
+    <main>  
+      {{> session }}    
+    </main>
+    <footer>
+      <nav>
+        <a href="/">home</a> 
+        <a href="/current">current</a>              
+        <a href="/session/{{next}}">next</a>
+      </nav>
+    </footer>
+  </body>
+</html>

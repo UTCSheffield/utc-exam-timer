@@ -1,0 +1,53 @@
+<section class="session">
+  {{!log "session" this.Date }}
+  <script>
+var today = {{this.Date.ts}};
+</script>
+  
+  <div class="grid-container">
+    {{#each this.groups as |group|}}
+      <div class="group">
+        <h2>{{group.name}}</h2>
+        {{! log "group" group }}
+        <ul class="h2">
+          {{#each group.papers as |paper|}}
+            {{!log "paper" paper.Paper}}
+            {{!#ifNotEqual paper.Paper group.name}}
+            <li>
+              {{paper.Subject}}:
+              {{paper.Paper}}
+              ({{paper.Code}})
+            </li>
+            {{!/ifNotEqual}}
+          {{/each}}
+        </ul>
+
+        <div class="paper">
+          <table>
+            <tr>
+              <th>Start</th>
+              <td
+                contenteditable="true"
+                spellcheck="false"
+                class="starttime"
+              >{{this.StartTime}}</td></tr>
+            <tr>
+              <th>Duration</th>
+              <td
+                class="duration"
+                data-dur="{{asMinutes this.Dur}}"
+              >{{this.Duration}}</td></tr>
+            <tr>
+              <th>Finish</th>
+              <td class="finishtime">{{this.finishtime}}</td></tr>
+            <tr>
+              <th>25% ET</th>
+              <td class="finishtime25">{{this.finishtime25}}</td></tr>
+            <tr>
+              <th>50% ET</th>
+              <td class="finishtime50">{{this.finishtime50}}</td></tr></table>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</section>

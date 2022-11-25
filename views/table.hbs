@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head }}
+  <body>
+    
+    <div class="error">
+      <ul>
+      {{log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    
+    <div>
+      <ul class="days">
+        {{#each days as | day | }}
+          {{#if day.ExamDay}}<li>
+            {{ day.sDate }}
+            <ul class="session am">
+              {{#each day.am as | paper | }}
+              <li>
+                  {{paper.Subject}}
+              :
+              {{paper.Paper}}
+              ({{paper.Code}})
+              </li>
+              {{/each}}
+        </ul>
+        </li>
+        {{/if}}
+        {{/each}}
+      </ul>      
+      </div>
+  </body>
+</html>
