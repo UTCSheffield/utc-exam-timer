@@ -1,16 +1,24 @@
+<!-- It's a handlebars template! hbs(handlebars): http://handlebarsjs.com/ -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
   {{> head }}
-  <body>    
-      {{> header }}
-    <main>  
-      {{> session }}    
-    </main>
-    <footer>
-      <nav>
-        <a href="/">home</a>
-        <a href="/session/room/{{ sessionroom }}/{{next}}">next</a>
-      </nav>
-    </footer>
+  <body class="center">
+    
+    <header>
+      <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+  <script  src="/function.js"></script>
+    
+    </header>
+
+    <main>
+        
+{{> session }}            
+        </section>
+      
+      </main>
+  <footer><nav>
+  <a href="/">home</a> <a href="/session/room/{{ sessionroom }}/{{next}}">next</a>
+    </nav></footer>
   </body>
 </html>

@@ -1,8 +1,15 @@
+<!-- It's a handlebars template! hbs(handlebars): http://handlebarsjs.com/ -->
+
 <!DOCTYPE html>
-<html  lang="en">
+<html>
   {{> head }}
-  <body >
+  <body class="center">
     
+    <header>
+      <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
+      <script  src="function.js"></script>
+    </header>
+
     <div class="error">
       <ul>
       {{log "errors" errors}}
@@ -16,16 +23,11 @@
       <ul>
         {{#each sessions as |session|}}
           <li>
-            <a href="session/{{@index}}">{{session.name}}</a>
-            ( {{#each this.groups as |group|}}
-                {{group.name}} : {{!-- x {{group.papers.length}}. --}}
-            {{#each group.papers as |paper|}}
-                {{paper.Subject}} - {{paper.Paper}}.
-            {{/each}}
-            {{/each}}
-            {{!-- {{#each session.rooms as |room|}}
-              <a href="/session/room/{{ room }}/{{@index}}">{{ room }}</a>              
-            {{/each}} --}} )
+            <a href="session/{{session.id}}">{{session.name}}</a>
+            ( {{#each session.rooms as |room|}}
+              <a href="/session/room/{{ room }}/{{session.id}}">{{ room }}</a>              
+            {{/each}} )
+            
           </li>
         {{/each}}
         <li>
@@ -33,8 +35,10 @@
           ( {{#each allrooms as |room|}}
               <a href="/current/room/{{ room }}">{{ room }}</a>              
             {{/each}} )
+          
         </li>
-      </ul>      
+      </ul>
+      
       </div>
   </body>
 </html>

@@ -1,40 +1,29 @@
 <section class="session">
   <h1>{{this.name}}</h1>
-  <h3>
-    Exam Centre Number : 36538
-  </h3>
-  
-      <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
-      <script  src="function.js"></script>
-    
-  <div class="grid-container">
+   <h3>
+          Exam Centre Number : 36538
+        </h3>
+  <div class="grid-container">        
     {{#each this.groups}}
-      <div class="group">
+      <div class="group">   
         <h2>{{this.name}}</h2>
-
+       
         <ul class="h2">
-          {{#each papers as | paper |}}
-            <li>
-              {{paper.Paper}}
-            </li>
-          {{/each}}
+          {{#each papers}}
+          <li>
+            {{this}}
+          </li>
+          {{/each }}
         </ul>
-
+          
         <div class="paper">
-          <table>
+            <table>
             <tr>
               <th>Start</th>
-              <td
-                contenteditable="true"
-                spellcheck="false"
-                class="starttime"
-              >{{this.starttime}}</td></tr>
+              <td contenteditable="true" spellcheck="false" class="starttime">{{this.starttime}}</td></tr>
             <tr>
               <th>Duration</th>
-              <td
-                class="duration"
-                data-dur="{{this.durationmins}}"
-              >{{this.dur}}</td></tr>
+              <td class="duration" data-dur="{{this.durationmins}}">{{this.dur}}</td></tr>
             <tr>
               <th>Finish</th>
               <td class="finishtime">{{this.finishtime}}</td></tr>
@@ -44,9 +33,9 @@
             <tr>
               <th>50% ET</th>
               <td class="finishtime50">{{this.finishtime50}}</td></tr></table>
-
-        </div>
-
+            
+          </div>
+            
       </div>
     {{/each}}
   </div>
