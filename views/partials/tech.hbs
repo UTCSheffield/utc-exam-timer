@@ -1,0 +1,27 @@
+<section class="session">
+  {{!log "session" this.Date }}
+  <script>
+    var today =
+    {{this.Date.ts}};
+  </script>
+  <div>
+    <h2>{{this.name}}</h2>
+    <ul>
+
+      {{#each this.groups as |group|}}
+        {{#each group.papers as |paper|}}
+          <li>
+            {{group.name}}
+            :
+            {{paper.Subject}}:
+            {{paper.Paper}}
+            ({{paper.Code}}) ({{paper.Rooms}}) :
+            {{this.Duration}}
+          </li>
+          {{!/ifNotEqual}}
+        {{/each}}
+
+      {{/each}}
+    </ul>
+  </div>
+</section>

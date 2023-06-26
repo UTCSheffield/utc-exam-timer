@@ -1,12 +1,13 @@
 <section class="session">
   {{!log "session" this.Date }}
   <script>
-var today = {{this.Date.ts}};
-</script>
-  
+    var today =
+    {{this.Date.ts}};
+  </script>
+
   <div class="grid-container">
     {{#each this.groups as |group|}}
-      <div class="group">
+      <div class="group" style="background-color: #2196f399;">
         <h2>{{group.name}}</h2>
         {{! log "group" group }}
         <ul class="h2">
@@ -16,7 +17,10 @@ var today = {{this.Date.ts}};
             <li>
               {{paper.Subject}}:
               {{paper.Paper}}
-              ({{paper.Code}})
+              {{#ifNotEqual
+                paper.Code
+                "Internal"
+              }}({{paper.Code}}){{/ifNotEqual}}
             </li>
             {{!/ifNotEqual}}
           {{/each}}
@@ -40,12 +44,20 @@ var today = {{this.Date.ts}};
             <tr>
               <th>Finish</th>
               <td class="finishtime">{{this.finishtime}}</td></tr>
-            <tr>
+            <tr id="countdown">
+              <th>Countdown</th>
+              <td id="timer">&nbsp;</td></tr>
+            <tr class="finishtime25">
               <th>25% ET</th>
-              <td class="finishtime25">{{this.finishtime25}}</td></tr>
-            <tr>
+              <td>{{this.finishtime25}}</td></tr>
+            <tr id="countdown25" class="finishtime25">
+              <th>ET Countdown</th>
+              <td id="extratimer">&nbsp;</td></tr>
+            <!--<tr>
               <th>50% ET</th>
-              <td class="finishtime50">{{this.finishtime50}}</td></tr></table>
+              <td class="finishtime50">{{this.finishtime50}}</td></tr>
+-->
+          </table>
         </div>
       </div>
     {{/each}}

@@ -1,0 +1,481 @@
+%YAML 1.2
+---
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Session: P1
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Biology
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+  Board: Internal
+  Series: November 1, 2022 00:00:00
+  Readers: TBC
+  Writers: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: Y11
+  Code: Internal
+  Subject: Health & Social Care
+  Paper: RO21
+  Session: P1
+  Duration: 1h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1 (Non Calculator)
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Biology
+  Session: P5
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: Y11
+  Code: Internal
+  Subject: Health & Social Care
+  Paper: RO21
+  Session: P5
+  Duration: 1h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 28, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Biology
+  Paper: Paper 3
+  Session: P5
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: November 29, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Chemistry Paper
+  Session: P1
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1 GSL/CSL/ISP, P2 CSL/GSL
+    - Room : CL4
+      Staff: P1 DPA, P2 SSH
+      Readers: 6
+      Writers: TBC
+    - Room : HSLB
+      Staff: P1 JMC, P2 EAS
+-
+  ExcelDate: November 29, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 12
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Health & Social
+  Paper: Unit 3
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P3 AOL/P4 RDA
+    - Room : HLDB
+      Staff: Invigilators
+-
+  ExcelDate: November 29, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 12
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Sport
+  Paper: Unit 1
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: MMO
+    - Room : HLDB
+      Staff: Invigilators
+-
+  ExcelDate: November 29, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 13
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Health & Social
+  Paper: Unit 6
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: RDA
+    - Room : HLDB
+      Staff: Invigilators
+-
+  ExcelDate: November 29, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: English Language
+  Paper: Paper 1
+  Session: P5e
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: MKA/CWR
+    - Room : CL4
+      Staff: SLE
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: EHO
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: November 30, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 30m 
+  Rooms: 
+    - Room : HSLB
+      Staff: IAH
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: November 30, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2
+  Session: P1
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1 OMC/EHO /  SLE/PCO
+    - Room : SL4
+      Staff: CWR
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: P1 KWI / P2 MKA
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: November 30, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 2
+  Session: P3
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: SBA      
+-
+  ExcelDate: November 30, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2
+  Session: pm
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P5 OMC / P6 SLE      
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: English Literature
+  Paper: Paper 1
+  Session: P1
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1/KWI/CWR P2 MKA/CWR
+    - Room : HSLB
+      Staff: SLE
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: PCO
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 12
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Sport
+  Paper: Unit 3
+  Session: P3
+  Duration: 1h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: KLO
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 13
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Health & Social
+  Paper: Unit 21
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: RDA
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Physics
+  Session: P3
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: GSL/CS
+    - Room : HSLB
+      Staff: Invigilators
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: TBC
+      Readers: 4
+      Writers: 2
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Physics
+  Session: P5
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: December 01, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Year 13 Resit
+  Qual: Cam Tech
+  Code: Internal
+  Subject: Sport
+  Paper: Unit 3
+  Session: P5
+  Duration: 1h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: MMO
+-
+  ExcelDate: December 02, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 3
+  Session: P1
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: December 02, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Biology
+  Paper: Paper 1
+  Session: P1
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : SL4
+      Staff: TBC
+-
+  ExcelDate: December 02, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P5e
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: SBA RDA
+    - Room : HSLB
+      Staff: TBC
+-
+  ExcelDate: December 02, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P5e
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: IAH MEG
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: December 02, 2022 00:00:00
+  Series: November 1, 2022 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 3
+  Session: P5e
+  Duration: 1h 15m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : HSLB
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+    - Room : CL4
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+      

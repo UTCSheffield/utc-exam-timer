@@ -1,0 +1,6 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>[:<port>]	<incl. subdomains>	<created>	<max-age>
+www.ocr.org.uk	0	1	1672998282	16070400
+ocr.org.uk	0	1	1672998353	16070400
+qualifications.pearson.com	0	1	1682331966	31536000

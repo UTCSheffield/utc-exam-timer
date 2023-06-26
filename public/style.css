@@ -9,6 +9,7 @@
 }
 
 body {
+  padding: 10px;
   font-family: helvetica, arial, sans-serif;
   font-size: 3vh;
 }
@@ -25,17 +26,19 @@ h1,
 
 h2,
 .h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   /*font-size: 2em;*/
-  margin: 0.2em 0;
+  margin: 0.1em 0;
 }
 
 /*p, li {
   max-width: 45vw;
-}*/
+}*/ 
 
 table {
   font-size: 125%;
+  border-collapse: collapse;
+  vertical-align: bottom;
 }
 
 li {
@@ -46,23 +49,24 @@ li {
   float: Right;
 }
 
-table {
-  vertical-align: bottom;
-}
-
 th {
   text-align: left;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .grid-container div {
-  background-color: #2196f399;
+  /*background-color: #2196f399;/*#969696;*/
+  border-style: solid;
   margin: 1vh;
   padding: 1vh;
+}
+
+.beforestarted {
+  background-color: #43a7f5;
 }
 
 .started {
@@ -75,13 +79,42 @@ th {
   background-opacity: 75%;
 }
 
-.done {
-  background-color: rgb(252, 86, 86);
+.nearly .finishtime25 {
+  background-color: lightgreen;
   background-opacity: 75%;
 }
 
+.extra, .extranearly {
+  background-color: rgb(252, 100, 100);
+  background-opacity: 75%;
+}
+
+.extra .finishtime25 {
+  background-color: lightgreen;
+  background-opacity: 75%;
+}
+
+.extranearly .finishtime25 {
+  background-color: orange;
+  background-opacity: 75%;
+}
+
+.done {
+  background-color: rgb(252, 100, 100);
+  background-opacity: 75%;
+}
+
+/*
 footer {
   text-align: right;
+}*/
+
+footer ul {
+    display: flex;
+}
+footer ul li{
+  list-style-type: none;
+  margin-right:5px;
 }
 
 ul.h2,
@@ -135,3 +168,83 @@ h3 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+
+th {
+  padding-right: 15px;
+}
+
+table.days > td{
+ border:1px; 
+}
+
+.days {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.days tr{background-color: #fdfdfd;}
+
+.days td, .days th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.days tr:nth-child(even){background-color: #f2f2f2;}
+
+
+.days th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff0000;/*#04AA6D;*/
+  color: white;
+}
+
+.staffdetails{
+  font-size: 90%;
+  margin-top: -1em;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  background: #ff0;
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 5%;
+  /* adjust the width; make sure the total of both is 100% */
+  background: #cc0;
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 45%;
+  /* adjust the width; make sure the total of both is 100% */
+  background: #dd0
+  padding: 0;
+  margin: 0
+}
+
+#countdown{
+  display:none;
+}
+
+
+#countdown25{
+  display:none;
+}
+
+.nearly #countdown {
+  display:table-row;
+}
+
+
+.extranearly #countdown25{
+  display:table-row;
+}
+

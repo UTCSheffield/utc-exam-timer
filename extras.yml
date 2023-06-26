@@ -1,0 +1,58 @@
+%YAML 1.2
+---
+-
+  Code: TRIBIP2
+  Rooms: 
+    - Room : SL4
+      Staff: JTO (P1) ISP (P2)
+      Readers: 
+      Scribes: 1 
+-
+  Code: MF01
+  Rooms: 
+    - Room : SL4
+      Staff: STO (P5) RDA (P6)
+      Readers: 
+      Scribes: 1
+-
+  Code: TRICHHI
+  Rooms: 
+    - Room : SL4
+      Staff: JTO (P5) EHO (P6)
+      Readers: 
+      Scribes: 1
+-
+  Code: ENGLT
+  Rooms: 
+    - Room : SL4
+      Staff:  EAS (Break (c), P3) PCO (P4ab)                        
+      Readers: 
+      Scribes: 1
+-
+  Code: TRIPHH
+  Rooms: 
+    - Room : SL4
+      Staff: CWR (P1) DFI (P2)
+      Readers: 
+      Scribes: 1
+- 
+  Code: GEOGR
+  Rooms: 
+    - Room : SL4
+      Staff: JTO (P3) CWR (P4)
+      Readers: 
+      Scribes: 1
+-
+  Code: MF02
+  Rooms: 
+    - Room : SL4
+      Staff: EHO (P5 / P6)
+      Readers: 
+      Scribes: 1
+-
+  Code: MF03
+  Rooms: 
+    - Room : SL4
+      Staff: EHO (P5) PCO (P6)
+      Readers: 
+      Scribes: 1

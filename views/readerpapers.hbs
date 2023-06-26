@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head }}
+  <body>
+    
+    <div class="error">
+      <ul>
+      {{!log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    <div>
+      <table class="days">
+        {{#each days as | day | }}
+          {{#if @first}} 
+            <tr><th>Exam Timetable</th>
+              {{#each day.timetable as | tt | }}
+                <th>{{tt.label}}</th>
+              {{/each}}
+            </tr>
+          {{/if}} 
+          {{#if day.ExamDay}}
+          <tr>
+            <th>{{ day.sDate }}</th>
+            {{#each day.timetable as | tt | }}
+            
+            <td>
+              {{#each this.exams as | paper | }}
+                {{#each paper.Rooms as |innerroom|}}
+                  {{#if innerroom.Readers}}
+                    <p>
+                      {{paper.Qual}}
+                      :
+                      {{paper.Subject}}
+                      <br/>
+                      {{paper.Paper}}
+                      @ {{paper.StartTime}}
+                    </p>
+                  {{/if}}
+                {{/each}}   
+              {{else}}
+                <p>
+                  No Exams
+              </p>
+              {{/each}}
+            </td>
+            {{/each}}
+          </tr>
+          {{/if}}
+        {{/each}}
+      </table>      
+      </div>
+    
+  </body>
+</html>

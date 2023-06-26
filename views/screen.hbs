@@ -30,29 +30,32 @@
               {{#each this.exams as | paper | }}
                 {{!--{{#if @first}}<ul>{{/if}}--}}
                 <p>
-                 <b> {{paper.Qual}}
+                  {{paper.Qual}}
                   :
                   {{paper.Subject}}
                   <br/>
                   {{paper.Paper}} : {{paper.Code}}
                   @ {{paper.StartTime}}
-                    </b>
-                  <ul>
+                </p>
+                {{#if ../../../displayStaff}}
+                  <ul class="staffdetails">
                     {{#each paper.Rooms as |innerroom|}}
                       <li>{{innerroom.Room}}
                         <ul>
-                          {{#if innerroom.Readers}}<li> Staff : {{innerroom.Staff}}</li>{{/if}}
-                          {{#if innerroom.Readers}}<li>Readers : {{innerroom.Readers}}</li>{{/if}}
-                          {{#if innerroom.Writers}}<li>Writers : {{innerroom.Writers}}</li>{{/if}}
+                          <li> Staff : {{innerroom.Staff}}</li>
+                          <!--{{#if innerroom.Readers}}<li>Readers : {{innerroom.Readers}}</li>{{/if}}
+                          {{#if innerroom.Writers}}<li>Writers : {{innerroom.Writers}}</li>{{/if}}-->
                         </ul>
                       </li>
                     {{/each}}
                   </ul>
-                </p>
+                {{/if}}
               {{!--{{#if @last}}</ul>{{/if}}--}}
                 
               {{else}}
-                No Exams
+                <p>
+                  No Exams
+              </p>
               {{/each}}
             </td>
             {{/each}}
@@ -62,7 +65,28 @@
       </table>      
       </div>
     
+    <script>
     
+    
+    lines = document.getElementsByTagName("tr");
+    totalTime = {{totaltime}}
+    stepInterval = totalTime / lines.length
+    counter = 0
+
+    function step(){
+      counter ++
+      i = counter % lines.length
+      dir = Math.floor(counter / lines.length) % 2
+      if (dir){
+        i = (lines.length-1) - i
+      }
+      //console.log("counter", counter, "i", i, "dir", dir)
+      lines[i].scrollIntoView({behaviour:"smooth",block:"end"})
+    }
+
+    setInterval(step, stepInterval )    
+  
+    </script>
     
   </body>
 </html>

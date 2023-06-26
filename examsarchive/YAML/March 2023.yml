@@ -1,0 +1,380 @@
+%YAML 1.2
+---
+-
+  ExcelDate: March 15, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1 (Non Calculator)
+  Session: P1
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P2 SLE/PCO
+    - Room : CL4
+      Staff: P1 KWI
+      Readers: 6?
+      Writers: 3
+    - Room : SL4
+      Staff: CWR
+-
+  ExcelDate: March 15, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 30m 
+  Rooms: 
+    - Room : HSDB
+      Staff: IAH
+-
+  ExcelDate: March 15, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P3
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : SSL
+      Staff: SBA
+-
+  ExcelDate: March 15, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Chemistry Paper
+  Session: P3
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: 
+    - Room : CL4
+      Staff: STO
+      Readers: 6?
+      Writers: 3
+    - Room : HSLB
+      Staff: TBC
+    - Room : HSDB
+      Staff: TBC
+    - Room : CE
+      Staff: J Potts, AOL, BSH
+-
+  ExcelDate: March 15, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1
+  Session: pm
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Readers: TBC
+      Writers: TBC
+-
+  ExcelDate: March 16, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: English Literature
+  Paper: Paper 2
+  Session: P1
+  Duration: 2h 15m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1/KWI/CWR P2 MKA/CWR
+    - Room : CL4
+      Staff: PCO
+      Readers: 6?
+      Writers: 3
+-
+  ExcelDate: March 16, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2
+  Session: P1
+  Duration: 2h 00m 
+  Rooms: 
+     - Room : HSLB
+       Staff: SLE
+-
+  ExcelDate: March 16, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Physics
+  Session: P3l
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: JTO
+-
+  ExcelDate: March 16, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Biology
+  Paper: Paper 3
+  Session: pm
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: TBC
+      Writers: 1 Walid
+-
+  ExcelDate: March 20, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 3
+  Session: P1
+  Duration: 2h 0m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: OMC
+    - Room : HSLB
+      Staff: T Gleadill
+-
+  ExcelDate: March 20, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2 (Calculator)
+  Session: P3
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P3 KWI/OMC P4 SLE/MKA
+    - Room : HSLB
+      Staff: EHO
+    - Room : CL4
+      Staff: CWR
+      Readers: 6?
+      Writers: 3
+    - Room : HSDB
+      Staff: T Gleadill
+    - Room : HSLB
+      Staff: A Wright
+-
+  ExcelDate: March 20, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Biology
+  Paper: Paper 1
+  Session: one
+  Duration: 2h 15m 
+  Rooms: 
+    - Room : SL4
+      Staff: JTO
+      Writers : 1 Wahlid?
+    - Room : Office
+      Redear : Wahlid with A Wright??
+-
+  ExcelDate: March 21, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Science
+  Paper: Biology
+  Session: P1
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: GSL/JTO A Wright
+    - Room: CL4
+      Staff: P1 DPA P2 EAS
+      Readers: 6?
+      Writers: 3
+    - Room : HSLB
+      Staff: P1 JMC P2 SSH
+    - Room : HSDB
+      Staff: R Foster
+    - Room : SL4
+      Staff: BSH J Roy S Asad
+    
+-
+  ExcelDate: March 21, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P3l
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: SBA
+    - Room : HSLB
+      Writers: Summer
+-
+  ExcelDate: March 21, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P3l
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: STO
+    - Room : HSLB
+      Staff : A Wright
+-
+  ExcelDate: March 22, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: English Language
+  Paper: Paper 2
+  Session: P1 
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1 KWI/CWR P2 CWR/MKA
+    - Room : CL4
+      Staff: P1 OMC P2 PCO
+      Readers: 6? + 3 for first section
+      Writers: 3
+    - Room : HSLB
+      Staff: P1 EHO P2 SLE
+
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 3 (Calculator)
+  Session: P1
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P1 OMC/SLE /  SLE/PCO
+    - Room : CL4
+      Staff: P1 KWI / P2 MKA
+      Readers: 6?
+      Writers: 3
+    - Room : HSLB
+      Staff: CWR
+    - Room : HSDB
+      Staff: T Gleadill
+    - Room : Office
+      Staff: J Potts
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Biology
+  Paper: Paper 2
+  Session: P1
+  Duration: 2h 15m 
+  Rooms: 
+    - Room : SL4
+      Staff: JTO
+      Writers : 1 Wahlid?
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 2
+  Session: P5l
+  Duration: 1h 20m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P5 SBA P6 RDA   
+    - Room : Office
+      Staff: T Gleadill
+    - Room : HSLB
+      Staff: J Potts
+      Writers : Summer?
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 2
+  Session: P5l
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: P5 MEG P6 IAH
+    - Room : HSLB
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: GCSE
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 2
+  Session: P5l
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : Main Hall
+      Staff: CLF
+    - Room : HSLB
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 2
+  Session: p5l
+  Duration: 2h 30m 
+  Rooms: 
+    - Room : HSDB
+      Staff: DPA
+      Writers : 2
+-
+  ExcelDate: March 24, 2023 00:00:00
+  Series: March 1, 2023 00:00:00
+  Board: Internal
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 2
+  Session: p5l
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : SL4
+      Staff: L Ladds
