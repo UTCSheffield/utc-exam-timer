@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{> head }}
+  <body>
+    
+    <div class="error">
+      <ul>
+      {{!log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    <div>
+      <table class="days">
+        {{#each days as | day | }}
+          {{#if @first}} 
+            <tr><th>Exam Timetable</th>
+              {{#each day.timetable as | tt | }}
+                <th>{{tt.label}}</th>
+              {{/each}}
+            </tr>
+          {{/if}} 
+          {{#if day.ExamDay}}
+          <tr>
+            <th>{{ day.sDate }}</th>
+            {{#each day.timetable as | tt | }}
+            
+            <td>
+              {{#each this.exams as | paper | }}
+                {{!--{{#if @first}}<ul>{{/if}}--}}
+                <p>
+                 <b> {{paper.Qual}}
+                  :
+                  {{paper.Subject}}
+                  <br/>
+                  {{paper.Paper}} : {{paper.Code}}
+                  @ {{paper.StartTime}}
+                    </b>
+                  <ul>
+                    {{#each paper.Rooms as |innerroom|}}
+                      <li>{{innerroom.Room}}
+                        <ul>
+                          {{#if innerroom.Readers}}<li> Staff : {{innerroom.Staff}}</li>{{/if}}
+                          {{#if innerroom.Readers}}<li>Readers : {{innerroom.Readers}}</li>{{/if}}
+                          {{#if innerroom.Writers}}<li>Writers : {{innerroom.Writers}}</li>{{/if}}
+                        </ul>
+                      </li>
+                    {{/each}}
+                  </ul>
+                </p>
+              {{!--{{#if @last}}</ul>{{/if}}--}}
+                
+              {{else}}
+                No Exams
+              {{/each}}
+            </td>
+            {{/each}}
+          </tr>
+          {{/if}}
+        {{/each}}
+      </table>      
+      </div>
+    
+    
+    
+  </body>
+</html>

@@ -1,29 +1,39 @@
-<!-- It's a handlebars template! hbs(handlebars): http://handlebarsjs.com/ -->
-
 <!DOCTYPE html>
 <html>
   {{> head }}
-  <body class="center">
-    
-    <header>
-      <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
-  <script  src="/function.js"></script>
-    
-    </header>
+  <body class="center">    
+    {{> header }}
+    <main>  
+      {{> session }}    
+    </main>
 
-    <main>
-        
-{{> session }}            
-        </section>
-      
-      </main>
-  <footer><nav>
-  <a href="/">home</a> 
-     ( {{#each rooms as |room|}}
-              <a href="/current/room/{{ room }}">{{ room }}</a>              
-            {{/each}} )
+    <footer>
+          <details>
+      <summary>Menu</summary>
+            <nav>
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/current">current</a>
+        {{#each rooms as |room|}}
+        <li>   <a href="/current/room/{{ room.name }}">{{ room.name }}</a> </li>
+        {{/each}}
+         <li><a href="/session/{{next}}">next</a></li>
+      </ul>
+      <h3>
+        Instructions
+      </h3>
+              <p>Use the tab key to navigate. Pressing enter will activate links.</p>
+              <p>Typing the following in a time box will cause the time to change.</p>
+      <dl>
+        <dt>s</dt><dd>Start at the next minute</dd>
+        <dt>+</dt><dd>Add an extra minute to the start time</dd>
+        <dt>-</dt><dd>Subtract a minute from the start time</dd>
+        <dt>h</dt><dd>Hide this group of exams</dd>
+      </dl>
+      </p>
+      </nav>
     
-    <a href="/session/{{next}}">next</a>
-    </nav></footer>
+    </details>
+    </footer>
   </body>
 </html>

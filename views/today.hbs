@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html  lang="en">
+  {{> head }}
+  <body >
+    
+    <div class="error">
+      <ul>
+      {{!log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    
+    <div>
+      <ul>
+        {{#each sessions as |session|}}
+          <li>
+            <a href="session/{{session.id}}">{{session.name}}</a>
+            <ul>
+              {{#each this.rooms as |room|}}
+                <li><a href="session/{{session.id}}/room/{{room.name}}/"><strong>{{room.name}}</strong></a>
+                  <ul> 
+                  
+                   {{#each this.groups as |group|}}
+                      {{#each group.papers as |paper|}}
+                        <li>  {{paper.Subject}} - {{paper.Paper}}  : {{paper.Code}} : {{paper.Board}} : {{paper.Qual}} @ {{paper.StartTime}}
+                        <ul>
+                          {{#each paper.Rooms as |innerroom|}}
+                            {{#if innerroom.Staff}}<li>Staff : {{innerroom.Staff}}</li>{{/if}}
+                            {{#if innerroom.Readers}}<li>Readers : {{innerroom.Readers}}</li>{{/if}}
+                            {{#if innerroom.Writers}}<li>Writers : {{innerroom.Writers}}</li>{{/if}}
+                          {{/each}}
+                        </ul>
+                        </li>
+                      {{/each}}
+                     
+                  {{/each}}
+                  </ul>
+                </li>
+              {{/each}}
+            </ul>
+        {{/each}}
+              
+        <li>
+          <a href="/current">Current</a>    
+          ( {{#each allrooms as |room|}}
+              <a href="/current/room/{{ room }}">{{ room }}</a>              
+            {{/each}} )
+        </li>
+      </ul>      
+      </div>
+  </body>
+</html>

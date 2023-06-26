@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html  lang="en">
+  {{> head }}
+  <body>
+    <script>
+    var today = {{sessions.1.Date.ts}};
+  </script>
+    <script  src="/function.js"></script>
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+  boosters();
+});
+</script>
+    <img src="https://cdn.glitch.global/df4aa39d-6724-41d4-8681-feecebaa41c6/UTC-Sheffield-Olympic-Legacy-Park-Horizontal-600x83.png?v=1684146790507" />
+    <div class="error">
+      <ul>
+      {{!log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    <h1>{{sessions.0.sDate}} </h1>
+    <div class="grid-container">
+      {{#each sessions as |session|}}
+        <div class="group">
+          <h2>
+            {{session.Label}}
+          </h2>
+          <ul>
+            {{#each this.groups as |group|}}
+              {{#each group.papers as |paper|}}
+                <li>{{paper.Qual}}
+                  {{paper.Subject}}:
+                  {{paper.Paper}}
+                </li>
+              {{/each}}
+            {{/each}}
+          </ul>
+          {{#if this.boosters}}
+          <h3>
+            Boosters
+          </h3>
+          {{!log this.boosters}}
+          <ul>
+            {{#each this.boosters as |booster|}}
+            <li><b>{{booster.Booster}}</b> {{booster.Room}} with {{booster.Staff}}  @ {{booster.Time}} </li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div> 
+      {{/each}}
+    </div>
+  </body>
+</html>

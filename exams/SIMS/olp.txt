@@ -1,0 +1,64 @@
+Summary Examination Timetable
+Season : Domestic Season 2023
+Export Date : 20/06/2023
+
+Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
+23/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,FSMQ,6993/01,"Maths: Additional Maths Paper 1",120,8
+26/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",132,12
+26/06/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",105,6
+26/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",132,83
+26/06/2023, 9:00AM,Science Lab 4,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",132,1
+26/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MF01,"Y10 Mathematics Foundation Tier Paper 1",113,5
+26/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MH01,"Y10 Mathematics Higher Tier Paper 1",113,7
+26/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MF01,"Y10 Mathematics Foundation Tier Paper 1",90,4
+26/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MH01,"Y10 Mathematics Higher Tier Paper 1",90,2
+26/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MF01,"Y10 Mathematics Foundation Tier Paper 1",113,33
+26/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MH01,"Y10 Mathematics Higher Tier Paper 1",113,49
+26/06/2023, 2:00PM,Science Lab 4,DOM,GCSE,MF01,"Y10 Mathematics Foundation Tier Paper 1",113,1
+27/06/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,CMPTSC,"Y10  Computer Science Paper 1",132,9
+27/06/2023, 8:45AM,H&S Learning Base G018,DOM,GCSE,CMPTSC,"Y10  Computer Science Paper 1",105,3
+27/06/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,CMPTSC,"Y10  Computer Science Paper 1",132,23
+27/06/2023, 1:45PM,H&S Development Base G019,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",132,12
+27/06/2023, 1:45PM,H&S Learning Base G018,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",105,6
+27/06/2023, 1:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",132,83
+27/06/2023, 1:45PM,Science Lab 4,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",132,1
+28/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",132,5
+28/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",132,34
+28/06/2023,10:55AM,H&S Development Base G019,DOM,GCSE,ENGLT,"Y10 English Literature",169,12
+28/06/2023,10:55AM,H&S Learning Base G018,DOM,GCSE,ENGLT,"Y10 English Literature",135,6
+28/06/2023,10:55AM,Multi Purpose Hall 2028,DOM,GCSE,ENGLT,"Y10 English Literature",169,83
+28/06/2023,10:55AM,Science Lab 4,DOM,GCSE,ENGLT,"Y10 English Literature",169,1
+28/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,CMPTSC2,"Y10 Computer Science Paper 2",113,9
+28/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,CMPTSC2,"Y10 Computer Science Paper 2",90,3
+28/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,CMPTSC2,"Y10 Computer Science Paper 2",113,23
+29/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,TRIPHH,"Y10 Physics Triple Higher Paper 1",132,12
+29/06/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,TRIPHH,"Y10 Physics Triple Higher Paper 1",105,6
+29/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,TRIPHH,"Y10 Physics Triple Higher Paper 1",132,83
+29/06/2023, 9:00AM,Science Lab 4,DOM,GCSE,TRIPHH,"Y10 Physics Triple Higher Paper 1",132,1
+29/06/2023,11:20AM,H&S Development Base G019,DOM,GCSE,GEOGR,"Y10 Geography P1",113,2
+29/06/2023,11:20AM,H&S Development Base G019,DOM,GCSE,ECOP1,"Y10 Economics Paper 1",113,5
+29/06/2023,11:20AM,H&S Learning Base G018,DOM,GCSE,GEOGR,"Y10 Geography P1",90,5
+29/06/2023,11:20AM,H&S Learning Base G018,DOM,GCSE,ECOP1,"Y10 Economics Paper 1",90,1
+29/06/2023,11:20AM,Multi Purpose Hall 2028,DOM,GCSE,GEOGR,"Y10 Geography P1",113,40
+29/06/2023,11:20AM,Multi Purpose Hall 2028,DOM,GCSE,ECOP1,"Y10 Economics Paper 1",90,17
+29/06/2023,11:20AM,Science Lab 4,DOM,GCSE,GEOGR,"Y10 Geography P1",113,1
+29/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MF02,"Y10 Mathematics Foundation Tier Paper 2",113,5
+29/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MH02,"Y10 Mathematics Higher Tier Paper 2",113,7
+29/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MF02,"Y10 Mathematics Foundation Tier Paper 2",90,4
+29/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MH02,"Y10 Mathematics Higher Tier Paper 2",90,2
+29/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MF02,"Y10 Mathematics Foundation Tier Paper 2",113,33
+29/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MH02,"Y10 Mathematics Higher Tier Paper 2",113,49
+29/06/2023, 2:00PM,Science Lab 4,DOM,GCSE,MF02,"Y10 Mathematics Foundation Tier Paper 2",113,1
+30/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,SOCP1,"Y10 Sociology Paper 1",113,1
+30/06/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,SOCP1,"Y10 Sociology Paper 1",90,1
+30/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,SOCP1,"Y10 Sociology Paper 1",90,13
+30/06/2023,11:20AM,H&S Development Base G019,DOM,GCSE,ECOP2,"Y10 Economics Paper 2",113,5
+30/06/2023,11:20AM,H&S Learning Base G018,DOM,GCSE,ECOP2,"Y10 Economics Paper 2",90,1
+30/06/2023,11:20AM,Multi Purpose Hall 2028,DOM,GCSE,ECOP2,"Y10 Economics Paper 2",90,17
+30/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MH03,"Y10 Mathematics Higher Tier Paper 3",113,7
+30/06/2023, 2:00PM,H&S Development Base G019,DOM,GCSE,MF03,"Y10 Mathematics Foundation Paper 3",113,5
+30/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MH03,"Y10 Mathematics Higher Tier Paper 3",90,2
+30/06/2023, 2:00PM,H&S Learning Base G018,DOM,GCSE,MF03,"Y10 Mathematics Foundation Paper 3",90,4
+30/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MH03,"Y10 Mathematics Higher Tier Paper 3",113,49
+30/06/2023, 2:00PM,Multi Purpose Hall 2028,DOM,GCSE,MF03,"Y10 Mathematics Foundation Paper 3",113,33
+30/06/2023, 2:00PM,Science Lab 4,DOM,GCSE,MF03,"Y10 Mathematics Foundation Paper 3",113,1

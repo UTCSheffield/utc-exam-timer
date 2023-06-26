@@ -1,18 +1,11 @@
-<!-- It's a handlebars template! hbs(handlebars): http://handlebarsjs.com/ -->
-
 <!DOCTYPE html>
-<html>
+<html  lang="en">
   {{> head }}
-  <body class="center">
+  <body >
     
-    <header>
-      <div id="DigitalCLOCK" class="clock" onload="showTime()"></div>
-      <script  src="function.js"></script>
-    </header>
-
     <div class="error">
       <ul>
-      {{log "errors" errors}}
+      {{!log "errors" errors}}
       {{#each errors as |error|}}
         <li>{{error}}</li>
       {{/each}}
@@ -23,22 +16,43 @@
       <ul>
         {{#each sessions as |session|}}
           <li>
-            <a href="session/{{session.id}}">{{session.name}}</a>
-            ( {{#each session.rooms as |room|}}
-              <a href="/session/room/{{ room }}/{{session.id}}">{{ room }}</a>              
-            {{/each}} )
-            
+            <a href="session/{{@index}}">{{session.name}}</a> @ {{#each this.rooms as |room|}}
+            {{room.short}} 
+            {{/each}}
+            <ul>
+                
+              {{#each this.groups as |group|}}
+                <li> 
+                  {{group.name}} : {{!-- x {{group.papers.length}}. --}}
+                  {{#each group.papers as |paper|}}
+                    {{paper.Subject}} - {{paper.Paper}} : {{paper.Code}}
+                  {{/each}}
+                </li>
+              {{/each}}    
+            </ul>
+
           </li>
         {{/each}}
         <li>
           <a href="/current">Current</a>    
-          ( {{#each allrooms as |room|}}
-              <a href="/current/room/{{ room }}">{{ room }}</a>              
-            {{/each}} )
-          
         </li>
-      </ul>
-      
+        <li> 
+          <a href="/boosters">Boosters</a>
+        </li>
+        <li> 
+          <a href="/table">Time Table</a>
+        </li>
+        <li> 
+          <a href="/screen">Time Table for Screens</a>
+         </li>
+        <li> <a href="/today">Todays Arrangements</a>
+          </li>
+        
+        <li> <a href="/readerpapers">Papers that require Reader PDFs</a>
+          </li>
+        
+          
+      </ul>      
       </div>
   </body>
 </html>
