@@ -30,24 +30,30 @@
               {{#each this.exams as | paper | }}
                 {{!--{{#if @first}}<ul>{{/if}}--}}
                 <p>
-                 <b> {{paper.Qual}}
+                 <b> {{paper.Qual}} : {{paper.Board}}
                   :
                   {{paper.Subject}}
                   <br/>
                   {{paper.Paper}} : {{paper.Code}}
-                  @ {{paper.StartTime}}
+                  @ {{paper.StartTime}} ({{paper.Duration}})
                     </b>
+                  {{#if  ../../../displayStaff}}
                   <ul>
                     {{#each paper.Rooms as |innerroom|}}
                       <li>{{innerroom.Room}}
                         <ul>
-                          {{#if innerroom.Readers}}<li> Staff : {{innerroom.Staff}}</li>{{/if}}
+                          {{#if innerroom.Staff}}<li> Staff : {{innerroom.Staff}}</li>{{/if}}
                           {{#if innerroom.Readers}}<li>Readers : {{innerroom.Readers}}</li>{{/if}}
                           {{#if innerroom.Writers}}<li>Writers : {{innerroom.Writers}}</li>{{/if}}
                         </ul>
                       </li>
                     {{/each}}
                   </ul>
+                {{else}}
+                  {{#each paper.Rooms as |innerroom|}}
+                    {{getShortRoom innerroom.Room}}
+                  {{/each}}
+                {{/if}}
                 </p>
               {{!--{{#if @last}}</ul>{{/if}}--}}
                 

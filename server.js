@@ -8,24 +8,27 @@ const yaml = require("js-yaml");
 var dcopy = require("deep-copy");
 const { parse } = require("csv-parse/sync");
 const consoleOnce = require("console-once");
+const ics = require('ics')
 
 var fs = require("fs"),
   path = require("path"),
-  URL = require("url");
+  URL = require("url"); 
 
 const dirTree = require("directory-tree");
 var XLSX = require("xlsx");
+
+const bShowInternalOnTimerScreen = true;
 
 var defaultTimes = {
   am: "09:00",
   "10am": "10:00",
   one: "13:00",
-  pm: "13:30",
+  pm: "13:00",
   p1: "08:45",
   p3: "11:15",
   p3l: "11:25",
   p4a: "12:10",
-  p4b: "12:40",
+  p4b: "12:45",
   p4c: "13:10",
   p5: "13:40",
   p5l: "13:50",
@@ -38,7 +41,7 @@ const MORNING = {
     millisecond: 0,
   };
 
-var groupOnDuration = false; //true;
+var groupOnDuration = true;//false;//true;
 
 const hbs = require("hbs");
 var helpers = require("handlebars-helpers")({
@@ -86,7 +89,7 @@ function getDateFromExcel(date) {
   var newDate;
   if (Number.isInteger(parseInt(date))) {
     //January 1, 1900, 12:00:00 a.m.
-    newDate = DateTime.local(1900, 1, 1, 0, 0, 0, 0, {
+    newDate = DateTime.local(1900, 1, 1, 3, 0, 0, 0, {
       zone: "Europe/London",
     }).plus(Duration.fromObject({ days: parseInt(date) - 1 }));
   } else {
@@ -104,6 +107,18 @@ function defaultExamMapping(exam) {
   exam.Board = exam.Board.trim()
   exam.Paper = exam.Paper.replace(/ ?[-:] ?Written Paper/,"").trim()
   exam.Subject = exam.Subject.trim()
+  
+  var bDebug = false;
+  if(exam.Code.substring(0, 4) == "R184" || exam.Code=="J205"){
+    bDebug = true;
+  }
+  
+  if(bDebug){
+    console.log("defaultExamMapping exam", exam.Code, "exam.Session", exam.Session);
+   }
+
+
+  
 
   exam.Dur = get_duration(exam.Duration);
   const Series = getDateFromExcel(exam.Series).set({
@@ -137,6 +152,14 @@ function defaultExamMapping(exam) {
   } else {
     console.log("exam.Session not found", exam.Session);
   }
+  
+    
+
+      if(bDebug){
+        console.log("defaultExamMapping end exam ", exam.Code, "exam.Session", exam.Session);
+       }
+
+  
   return exam;
 }
 
@@ -175,9 +198,10 @@ function printExams(label, data) {
   for (var i = 0; i < data.length; i++) {
     printExam(label + "[" + i + "]", data, i, false);
   }
-}
+} 
 
 function getTimetableSIMS(file) {
+  console.log("getTimetableSIMS start")
   try {
     const doc = fs.readFileSync(file, "utf8");
     const lines = doc.split("/n");
@@ -214,7 +238,7 @@ function getTimetableSIMS(file) {
       exam.Series = series; //new Date(exam.Series);
       exam.Code = exam["Component Code"];
       var bDebug = false;
-      if(exam.Code == "H156/02"){
+      if(exam.Qual == "CAMX" && exam.Code.substring(exam.Code.length - 2) == "01"){
         //bDebug = true;
       }
       
@@ -228,14 +252,21 @@ function getTimetableSIMS(file) {
 
       if (exam.Qual == "CAMX") {
         exam.Qual = "Cambridge Technicals Level 3";
+        //examCode = exam.Code
         exam.Code = "0" + exam.Code.substring(0, 4) + "/" + exam.Code.substring(4, 6);
+        //console.log("examCode", examCode, "exam.Code", exam.Code)
       }
       if (exam.Qual == "CNAT") {
         exam.Qual = "Cambridge National";
       }
 
       exam.Session = "pm";
-
+      /*
+      if ((exam.Date.weekday == 1 || exam.Date.weekday == 5) && exam.Date.hour == 13 && exam.Date.minute == 0) {
+        console.log("exam.Date.hour", exam.Date.weekday , exam.Date.hour,  exam.Date.minute)
+        exam.Session = "one"; 
+      }else 
+      */
       if (exam.Date.hour < 10) {
         exam.Session = "am";
       }else if (exam.Date.hour < 12) {
@@ -251,15 +282,17 @@ function getTimetableSIMS(file) {
       exam.Duration = duration_moment.toHuman().replace(",")
       exam.End = exam.Date.plus(exam.Dur);
       if (typeof exam.Rooms == "undefined") {
-        // This should be a look up f local data
+        // This should be a look up of local data
         exam.Rooms = [{ Room: exam.Room }];
       }
-      exam.Codes = splitExamCodes(exam.Code.replace(" ", "/"));
+      exam.Codes = splitExamCodes(exam.Code.replace(" ", "/"), exam.Board);
       
       //consoleOnce.log("exam", "exam", exam)
-      
+      if(exam.Code == "R184/01" || exam.Code=="J205/01"){
+        bDebug = true
+      }
       if(bDebug){
-        console.log("exam", exam)
+        console.log("getTimetableSIMS exam", exam.Code, exam.Session, exam.StartTime)
       }
       
       exam.aMatchedBoardExam = null;
@@ -284,7 +317,7 @@ function getTimetableYAML(file) {
       })
       .map(defaultExamMapping)
       .map((exam) => {
-        exam.Codes = splitExamCodes(exam.Code.replace(" ", "/"));
+        exam.Codes = splitExamCodes(exam.Code.replace(" ", "/"), exam.Board);
         return exam;
       });
 
@@ -292,10 +325,11 @@ function getTimetableYAML(file) {
     return data; 
   } catch (e) {
     console.log("Error", e);
-  }
+  } 
 }
 
 function getTimetableOCR(wb) {
+  console.log("getTimetableOCR start")
   var ws = wb.Sheets[wb.SheetNames[0]];
   var sheetdata = XLSX.utils.sheet_to_json(ws, jsonOptions);
   var data = sheetdata
@@ -303,7 +337,20 @@ function getTimetableOCR(wb) {
     .map(defaultExamMapping)
     .map((exam) => {
       exam.Subject = exam.Subject.replace("(", "").replace(")", "");
-      var Codes = splitExamCodes(exam.Code);
+      var bDebug = false;
+      if(exam.Code.substring(0, 4) == "R184" || exam.Code=="J205"){
+        bDebug = true;
+      }
+
+      if(bDebug){
+        console.log("getTimetableOCR exam", exam.Code, "exam.Session", exam.Session);
+       }
+
+      
+      var Codes = splitExamCodes(exam.Code, "OCR");
+      if(bDebug){
+          console.log("exam.Code",exam.Code ,"Codes", Codes)
+        }
       exam.Codes = Codes;
       var Unit = getOCRUnit(exam.Paper);
       if (Unit) {
@@ -311,6 +358,9 @@ function getTimetableOCR(wb) {
           return Code + "/" + Unit;
         });
         exam.Codes = codes;
+        if(bDebug){
+          console.log("exam.Codes", exam.Codes)
+        }
         exam.Code = exam.Code
       }
       
@@ -418,23 +468,67 @@ function createID(exam){
   return exam
 }
 
+function removeusingSet(arr) {
+    let outputArray = Array.from(new Set(arr))
+    //console.log("removeusingSet", arr, arr.length, "reduced to",outputArray.length, outputArray )
+    return outputArray
+}
+
+function removewithfilter(arr) {
+    let outputArray = arr.filter(function (v, i, self) {
+ 
+        // It returns the index of the first
+        // instance of each value
+        return i == self.indexOf(v);
+    });
+  if(arr.length == outputArray.length){
+    //console.log("removewithfilter", arr, arr.length, "reduced to",outputArray.length, outputArray )
+  }
+    return outputArray;
+}
+
+function removeDuplicateRooms(Arr){
+  let outputArray = [];
+ 
+  // Count variable is used to add the
+  // new unique value only once in the
+  // outputArray.
+  let count = 0;
+
+  // Start variable is used to set true
+  // if a repeated duplicate value is
+  // encontered in the output array.
+  let start = false;
+
+  for (let j = 0; j < Arr.length; j++) {
+      for (let k = 0; k < outputArray.length; k++) {
+          if (Arr[j]['Room'] == outputArray[k]['Room']) {
+              start = true;
+          }
+      }
+      count++;
+      if (count == 1 && start == false) {
+          outputArray.push(Arr[j]);
+      }
+      start = false;
+      count = 0;
+      
+  }  
+  //console.log("removeDuplicateRooms", Arr, Arr.length, "reduced to",outputArray.length, outputArray )
+  return outputArray
+}
+
 boardExams = boardExams.map(createID);
 simsExams = simsExams.map(createID);
 yamlExams = yamlExams.map(createID);
-
-//console.log("boardExams.IDs", boardExams.map((exam)=>{return exam.ID;}).join(" "))
-//console.log("simsExams.IDs", simsExams.map((exam)=>{return exam.ID;}).join(" "))
-//console.log("yamlExams.IDs", yamlExams.map((exam)=>{return exam.ID;}).join(" "))
 
 var aSimsRooms = []
 simsExams.forEach((exam)=>{
   if (!(exam.Code in aSimsRooms)){
     aSimsRooms[exam.Code] = [];
   } 
-  aSimsRooms[exam.Code] = aSimsRooms[exam.Code].concat(exam.Rooms)
+  aSimsRooms[exam.Code] = removeusingSet(aSimsRooms[exam.Code].concat(exam.Rooms))
 })
-
-//console.log("aSimsRooms", aSimsRooms);
 
 // DONE : Load board format exams
 // TODO : Don't flattern Codes check against the full Codes[] structure
@@ -452,13 +546,13 @@ function simsExamForBoardExam(oBoardExam, oSimsExam){
     var oSimsExamCodes = dcopy(oSimsExam.Codes)
     if (oBoardExamCodes.some((sBoardCode)=>{
       const bBoardCodeInSimsData =  oSimsExamCodes.includes(sBoardCode)
-      if(bBoardCodeInSimsData){
-        //console.log("oSimsExamCodes.includes("+sBoardCode+")", oSimsExamCodes, bBoardCodeInSimsData)
+      if(bBoardCodeInSimsData && sBoardCode == "R184/01"){
+        console.log("oSimsExamCodes.includes("+sBoardCode+")", oSimsExamCodes, bBoardCodeInSimsData)
       }
       return bBoardCodeInSimsData
     })){
       oSimsExam.aMatchedBoardExam = oBoardExam.ID
-      //console.log("oBoardExam:"+oBoardExam.ID, "oBoardExam:"+oBoardExam.ID, oBoardExam.Qual, oBoardExam.Subject, oBoardExam.Paper, oSimsExam.ID, oSimsExam.Codes);
+      //console.log("oBoardExam:"+oBoardExam.ID, oBoardExam.Qual, oBoardExam.Subject, oBoardExam.Paper, oSimsExam.ID, oSimsExam.Codes);
     }
   }
   return oSimsExam; 
@@ -474,6 +568,9 @@ boardExams.forEach((boardExam) => {
     const found = simsExams.findIndex(element => element.aMatchedBoardExam == boardExam.ID);
     if((found > -1) && !aListedExams.includes(boardExam.ID)){
       aListedExams.push(boardExam.ID);
+      boardExam.Date = simsExams[found].Date
+      boardExam.StartTime = simsExams[found].StartTime
+      
       ourExams.push(boardExam);
     }
   });
@@ -517,11 +614,14 @@ ourExams = ourExams.concat(Object.values(matchingExams));
       ourExams.push(missingExam);
     }
   });
-*/
+*/ 
 
 ourExams = ourExams.concat(yamlExams)
 
 var getShortRoom = function(sRoom){
+  if(sRoom.length < 5){
+    return sRoom
+  }
   var aWords = sRoom.split(" ")
   var sShort = aWords.map((word)=>{
     if (word.search(/[A-Z]&[A-Z]+/i) > -1 ){
@@ -537,7 +637,17 @@ var getShortRoom = function(sRoom){
   //console.log("sShort", sShort)
   return sShort
 }
- 
+
+console.assert(room = getShortRoom('Multi Purpose Hall 2028') == "MPH", room)
+console.assert(room = getShortRoom('H&S Development Base G019') == "HSDB", room)
+console.assert(room = getShortRoom('H&S Learning Base G018' ) == "HSLB", room)
+console.assert(room = getShortRoom('Computing Lab 4 1023' ) == "CL4", room)
+console.assert(room = getShortRoom('CL4' ) == "CL4", room)
+
+hbs.registerHelper("getShortRoom", function (arg1) {
+  return getShortRoom(arg1);
+});
+
 function setRooms(exam){
   if(exam.Code in aSimsRooms){
       exam.Rooms = exam.Rooms.concat(aSimsRooms[exam.Code]) 
@@ -559,6 +669,7 @@ function setRooms(exam){
       return oExamRoom
     })
   } 
+  exam.Rooms = removeDuplicateRooms(exam.Rooms)
   return exam
 } 
 
@@ -589,11 +700,26 @@ ourExams = ourExams.map((exam) => {
 // TODO : run around the sims exams and add all the rooms we have and add them to ourExams
 
 function setSessionAndGroup(exam) {
+  var bDebug = false
+  
+  if(exam.Code == "R184/01" || exam.Code=="J205/01"){
+        bDebug = true;
+  }
+  
+  if(bDebug){ 
+    console.log("setSessionAndGroup exam", exam.Code, "exam.Session", exam.Session);
+   }
+  
   const SessionName =
     exam.Date.toLocaleString(DateTime.DATE_HUGE) + " " + exam.Session;
   exam.SessionName = SessionName;
   //consoleOnce.log("setSessionAndGroup (once) exam.Date", "setSessionAndGroup (once) exam.Date", exam.Date.toLocaleString(DateTime.DATETIME_MED), "exam.SessionName", exam.SessionName);
 
+  
+  if(bDebug){
+    console.log("exam.SessionName", exam.SessionName);
+  }
+  
   var GroupKey = exam.Date.toLocaleString() + " : " + exam.Code;
   //consoleOnce.log("typeof exam.Dur","typeof exam.Dur", typeof exam.Dur)
   if (groupOnDuration && typeof exam.Dur == "object") {
@@ -606,9 +732,15 @@ function setSessionAndGroup(exam) {
       exam.Qual +
       " : " +
       exam.Dur.toHuman({ unitDisplay: "short" });
-  }
-
+  } 
   exam.GroupKey = GroupKey;
+  
+  if(bDebug){
+    /*console.log("setSessionAndGroup exam", exam.Code, exam.Date.toLocaleString(DateTime.DATETIME_MED))
+    console.log("exam.Session", exam.Session);
+    console.log("exam.SessionName", exam.SessionName);
+    console.log("exam.GroupKey", exam.GroupKey)*/
+  }
   return exam;
 }
 
@@ -649,29 +781,51 @@ function createRange(from, to) {
     }
 
     var result = [];
-    var innerRange = createRange(from.substring(1), to.substring(1));
+    if (/^\+?\d+$/.test(from) && /^\+?\d+$/.test(to) ){
+      var iFrom = parseInt(from)
+      var iTo = parseInt(to)
+    
+      for(i = iFrom ; i <= iTo; i++){
+        result.push(i.toString()) 
+      }
+    } else {
+      var innerRange = createRange(from.substring(1), to.substring(1));
+      for (var i = from.charCodeAt(0); i <= to.charCodeAt(0); i++) {
+          for (var j = 0; j < innerRange.length; j++) {
+              result.push(String.fromCharCode(i) + innerRange[j]);
+          }
+      }
 
-    for (var i = from.charCodeAt(0); i <= to.charCodeAt(0); i++) {
-        for (var j = 0; j < innerRange.length; j++) {
-            result.push(String.fromCharCode(i) + innerRange[j]);
-        }
+      
     }
 
     return result;
 }
 
+var range;
+console.assert(JSON.stringify(range = createRange("1A","1C")) == JSON.stringify(["1A","1B","1C"]), "1A","1C", range)
+console.assert(JSON.stringify(range = createRange("5838","5842")) == JSON.stringify(["5838","5839","5840","5841","5842"]),["5838","5842"],range)
 
-function splitExamCodes(name) {
+
+
+
+function splitExamCodes(name, board = "") {
   var bDebug = false;
-  if(name == "H156/02"){
-    //bDebug = true;
+  if(name == "5877CC"){
+    bDebug = true; 
   }
   
   var chunks = name.split(/[ &]+/);
   var stage2 = chunks.map((chunk)=>{
+    if(bDebug){
+      console.log("chunk", JSON.stringify(chunk));
+    }
     var codePaper = chunk.trim().split("/");
     var stage3 = codePaper.map((part) => {
         var  partRange = part.trim().split("-");
+        if(bDebug){
+          console.log("partRange", JSON.stringify(partRange));
+        }
         var spread = partRange;
         if (partRange.length > 1){
             spread = createRange(partRange[0],partRange[1]);
@@ -692,17 +846,49 @@ function splitExamCodes(name) {
     }
     return stage3.flat();
   })
+  var stage1 = stage2.flat().map((codeFrag)=>
+    {
+      if(board=="OCR" && !isNaN(parseInt(codeFrag))){
+        return codeFrag.padStart(5, "0");  
+      }
+      return codeFrag
+  })
   if(bDebug){
-    console.log("stage2", JSON.stringify(stage2));
+    console.log("stage1", JSON.stringify(stage1)); 
   }
-  return stage2.flat()
+  return stage1
 }
 
-console.assert(JSON.stringify(splitExamCodes("05822")) == JSON.stringify([ '05822']))
-console.assert(JSON.stringify(splitExamCodes("05822-05825 & 05873") ) == JSON.stringify( [ '05822', '05823', '05824', '05825', '05873' ]))
-console.assert(JSON.stringify(splitExamCodes("05826-05829 & 05872")) == JSON.stringify( [ '05826', '05827', '05828', '05829', '05872' ]))
-console.assert(JSON.stringify(splitExamCodes("05833 & 05871")) == JSON.stringify( [ '05833', '05871' ]))
-console.assert(JSON.stringify(splitExamCodes("1RA0/1A-1C") ) == JSON.stringify( [ '1RA0/1A', '1RA0/1B','1RA0/1C' ]))
+//console.assert(JSON.stringify(splitExamCodes("5877/CC", "OCR")) == JSON.stringify(['05877/CC']), "5877/CC") 
+console.assert(JSON.stringify(splitExamCodes("05822", "OCR")) == JSON.stringify([ '05822']), "05822")
+console.assert(JSON.stringify(splitExamCodes("05822-05825 & 05873", "OCR") ) == JSON.stringify( [ '05822', '05823', '05824', '05825', '05873' ]),"05822-05825 & 05873")
+console.assert(JSON.stringify(splitExamCodes("05826-05829 & 05872", "OCR")) == JSON.stringify( [ '05826', '05827', '05828', '05829', '05872' ]), "05826-05829 & 05872")
+console.assert(JSON.stringify(splitExamCodes("05838-05842 & 05877", "OCR")) == JSON.stringify( [ '05838', '05839', '05840', '05841', '05842', '05877' ]), "05838-05842 & 05877")
+
+console.assert(JSON.stringify(splitExamCodes("05833 & 05871", "OCR")) == JSON.stringify( [ '05833', '05871' ]), "05833 & 05871")
+console.assert(JSON.stringify(splitExamCodes("1RA0/1A-1C") ) == JSON.stringify( [ '1RA0/1A', '1RA0/1B','1RA0/1C' ]), "1RA0/1A-1C")
+console.assert(JSON.stringify(splitExamCodes("R184", "OCR")) == JSON.stringify([ 'R184']), "R184") 
+console.assert(JSON.stringify(splitExamCodes("R184", "OCR")) == JSON.stringify([ 'R184']), "R184") 
+
+
+function getAccess(aExams) {
+  //console.log("getAccess(aExams)", aExams[0].SessionName, aExams[0].Rooms)
+  
+  
+  return aExams.reduce((examAccumulator, exam) =>{
+    exam.Rooms.forEach(room => {
+      //console.log("room", room, "examAccumulator", examAccumulator)
+      Object.keys(examAccumulator).forEach(key => {
+        if (key in room) {
+         examAccumulator[key] = examAccumulator[key] + room[key]
+        }
+      });
+    });
+    return examAccumulator
+    }, {"Writers":0, "Readers":0}
+  );
+  
+}
 
 
 function getGroups(aExams) {
@@ -733,11 +919,16 @@ function getGroups(aExams) {
 
     var aGroup = {
       name: aGroupExams[0].Board + " " + aGroupExams[0].Qual,
+      bShow : bShowInternalOnTimerScreen || (aGroupExams[0].Board != "Internal"),
       Duration: aGroupExams[0].Duration,
       Dur: aGroupExams[0].Dur,
       StartTime: aGroupExams[0].StartTime,
       papers: aGroupExams,
+      summary:aGroupExams.map(exam =>{
+        return exam["Component Title"]
+      }).join(", ")
     };
+    //console.log("aGroupExams[0]", aGroupExams[0])
     /*aGroupExams[0];
     aGroup.name=  aGroupExams[0].Qual; //aGroupExams.map(exam=>{return exam.Paper}).join("<br>"),
     //Session      : aGroupExams[0].Session,
@@ -801,7 +992,7 @@ Sessions = aSessions.map((sSession, iIndex) => {
           });
         })
         .flat()
-    )
+    ) 
   );
 
   var aRooms = aRoomNames.map((sRoomKey) => {
@@ -822,16 +1013,20 @@ Sessions = aSessions.map((sSession, iIndex) => {
       name: sRoomKey,
       short:getShortRoom(sRoomKey),
       groups: getGroups(aRoomExams),
+      access: getAccess(aRoomExams),
     };
     return aRoom;
   });
   
   if(aExams.length > 0){
     var sLabel = "No Date"
-    //console.log("aExams[0].Date", aExams[0].Date)
-    //if(typeof aExams[0].Date == "Object"){
-      sLabel = (aExams[0].Date.toFormat("a")=="AM"?"Morning - ":"Afternoon - ")+aExams[0].Date.toFormat("h:mma").toLowerCase();
-    //}
+    sLabel = (aExams[0].Date.toFormat("a")=="AM"?"Morning - ":"Afternoon - ")+aExams[0].Date.toFormat("h:mma").toLowerCase();
+    
+    var durations = aGroups.map(group =>{
+        return group.Dur
+      });
+    var oDur = Duration.fromMillis(Math.max(...durations)).rescale(); 
+    
     return {
       name: sSession,
       id: iIndex,
@@ -839,10 +1034,14 @@ Sessions = aSessions.map((sSession, iIndex) => {
       Date: aExams[0].Date,
       Label: sLabel, 
       sDate: aExams[0].Date.toLocaleString(DateTime.DATE_HUGE),
+      summary: aGroups.map(group =>{
+        return group.summary
+      }).join(", "),
+      duration: oDur.toObject(),
       End: aExams[aExams.length - 1].End,
       groups: aGroups,
       rooms: aRooms,
-      boosters: boosterYAML[sSession]
+      boosters: boosterYAML[sSession],
     };
   }
   return {}
@@ -866,8 +1065,10 @@ app.get("/current", (request, response) => {
       sessions: Sessions,
       allrooms: AllRooms,
       errors: errors,
+      thispage : "current",
+      bShowInternalOnTimerScreen : bShowInternalOnTimerScreen
     };
-    response.render("index", data);
+    response.render("noexams", data);
   }
 });
 
@@ -879,6 +1080,7 @@ app.get("/current/room/:room", (request, response) => {
   
   if (id >= 0) {
     let data = dcopy(Sessions[id]);
+    data.bShowInternalOnTimerScreen = bShowInternalOnTimerScreen
     var roomId = data.rooms.findIndex((room) => {
       return room.name == request.params.room;
     });
@@ -888,16 +1090,18 @@ app.get("/current/room/:room", (request, response) => {
     }
     response.render("roomsession", data);
   }
-});
+}); 
 
 app.get("/session/:id", (request, response) => {
   let dt = new Date();
   let data = Sessions[request.params.id];
+  data.bShowInternalOnTimerScreen = bShowInternalOnTimerScreen
   response.render("session", data);
 });
 
 app.get("/session/:id/room/:room", (request, response) => {
   let data = dcopy(Sessions[request.params.id]);
+  data.bShowInternalOnTimerScreen = bShowInternalOnTimerScreen
   var roomId = data.rooms.findIndex((room) => {
     return room.name == request.params.room;
   });
@@ -917,10 +1121,71 @@ app.get("/", (request, response) => {
     sessions: Sessions,
     allrooms: AllRooms,
     errors: errors,
+    thispage : ""
   };
 
   response.render("index", data);
 });
+
+
+app.get("/calendar", (request, response) => {
+  // Here's some data that the our server knows:
+  let dt = new Date();
+
+  let data = {
+    sessions: Sessions,
+    allrooms: AllRooms,
+    errors: errors,
+    thispage : ""
+  };
+  
+  const filename = 'some_file.ics';
+   response.set({
+    'Content-Type': 'text/calendar',
+    'Content-Disposition': `attachment; filename=${filename}`,
+  });
+  
+  var events = Sessions.map(session => {
+    return {
+      title: "Exams : "+ session.summary,
+      start: [session.Date.year, session.Date.month, session.Date.day, (session.Date.hour)-1, session.Date.minute],
+      duration: session.duration,
+      description: session.summary,
+      location: session.rooms.map(room =>{
+        return room.short
+      }).join(", ")
+    }
+  })
+  
+  const { error, value } = ics.createEvents(events
+    /*[
+    {
+      title: 'Lunch',
+      start: [2023, 11, 29, 12, 15],
+      duration: { minutes: 45 },
+      description: 'Annual 10-kilometer run in Boulder, Colorado',
+      location: 'Folsom Field, University of Colorado (finish line)',
+    },
+    {
+      title: 'Dinner',
+      start: [2023, 11, 30, 12, 15],
+      duration: { hours: 1, minutes: 30 }
+    }
+  ]
+  */
+  )
+
+  if (error) {
+    console.log(error)
+    return
+  }
+
+  console.log(value)
+  response.send(value);
+  
+  //response.render("index", data);
+});
+
 
 app.get("/today", (request, response) => {
   // Here's some data that the our server knows:
@@ -940,6 +1205,7 @@ app.get("/today", (request, response) => {
       sessions: todaysSessions,
       allrooms: AllRooms,
       errors: errors,
+      thispage : "today"
     };
 
     response.render("today", data);
@@ -949,16 +1215,17 @@ app.get("/today", (request, response) => {
     sessions: Sessions,
     allrooms: AllRooms,
     errors: errors,
+    thispage : "today"
   };
-  response.render("today", data);
-});
+  response.render("noexams", data);
+}); 
 
 
 app.get("/boosters", (request, response) => {
   // Here's some data that the our server knows:
   var dt = DateTime.local({ zone: "Europe/London" });
   //console.log("dt.toISO()", dt.toISO(), dt.hour, dt.minute)
-  if (dt.hour > 13 ||(dt.hour == 13 && dt.minute > 35)){
+  if (dt.hour > 13 ||(dt.hour == 13 && dt.minute == 35)){
     dt = dt.plus({ days: 1 }).set(MORNING)  
   }
   //console.log("dt2.toISO()", dt.toISO(), dt.hour, dt.minute)
@@ -977,20 +1244,21 @@ app.get("/boosters", (request, response) => {
       sessions: todaysSessions,
       allrooms: AllRooms,
       errors: errors,
+      thispage : "boosters"
     };
 
     response.render("boosters", data);
     return;
   }
+  //response.sendStatus(404)
   let data = {
     sessions: Sessions,
     allrooms: AllRooms,
     errors: errors,
+    thispage : "boosters"
   };
-  response.render("today", data);
-});
-
-
+  response.status(404).render("noexams", data);
+}); 
 
 function getTableData(totaltime = 30000, displayStaff = false) {
   // Here's some data that the our server knows:
@@ -1018,6 +1286,7 @@ function getTableData(totaltime = 30000, displayStaff = false) {
     days[i] = {
       Date: iDate,
       sDate: iDate.toLocaleString(DateTime.DATE_HUGE),
+      sFolderDate: iDate.toFormat('yyyyLLdd_ccc'),
       timetable: [
         {
           label: "AM",
@@ -1052,6 +1321,8 @@ function getTableData(totaltime = 30000, displayStaff = false) {
     totaltime: totaltime,
     displayStaff: displayStaff,
   };
+  //console.log("days exam", days[0]["timetable"][0]['exams'][0])
+
   return data;
 }
 
@@ -1073,6 +1344,19 @@ app.get("/screen/:time/", (request, response) => {
 
 app.get("/staff/:time/", (request, response) => {
   response.render("screen", getTableData(request.params.time, true));
+});
+
+app.get("/staff", (request, response) => {
+  response.render("table", getTableData(60000, true));
+});
+
+app.get("/test", (request, response) => {
+  response.send({"cookies":request.cookies,
+                 "params":request.params,
+                 "query":request.query,
+                 "headers":request.headers,
+                });
+  
 });
 
 let listener = app.listen(process.env.PORT, () => {

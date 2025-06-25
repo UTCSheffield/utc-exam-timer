@@ -14,6 +14,23 @@
     
     <div>
       <ul>
+          {{#each sessions as |session|}}
+          <h3>
+            <a href="session/{{session.id}}">{{session.name}}</a>
+          </h3>
+          <ul>
+            {{#each this.rooms as |room|}}
+              <li><a href="session/{{session.id}}/room/{{room.name}}/"><strong>{{getShortRoom room.name}}</strong></a>                   
+                  {{#if room.access.Readers}}R:{{room.access.Readers}}{{/if}}
+                  {{#if room.access.Writers}}W:{{room.access.Writers}}{{/if}}
+                {{#each this.groups as |group|}}
+                  <em>{{group.papers.0.Qual}} - {{group.papers.0.Subject}}</em> :
+                {{/each}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/each}}
+        <!--
         {{#each sessions as |session|}}
           <li>
             <a href="session/{{@index}}">{{session.name}}</a> @ {{#each this.rooms as |room|}}
@@ -33,6 +50,10 @@
 
           </li>
         {{/each}}
+        -->
+        <li>
+          <a href="/">Reload</a>    
+        </li>
         <li>
           <a href="/current">Current</a>    
         </li>
@@ -49,6 +70,10 @@
           </li>
         
         <li> <a href="/readerpapers">Papers that require Reader PDFs</a>
+          </li>
+        <li> <a href="/calendar">iCal Feed</a>
+          </li>
+        <li> <a href="/test">Test</a>
           </li>
         
           

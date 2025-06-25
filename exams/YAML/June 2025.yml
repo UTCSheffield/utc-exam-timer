@@ -1,0 +1,313 @@
+%YAML 1.2
+---
+-
+  ExcelDate: June 19, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 English Literature
+  Paper: Paper 2
+  Session: am
+  Duration: 2h 15m
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+-
+  ExcelDate: June 20, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: p4b
+  Duration: 1h 30m
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Readers: 1
+      Writers: 2
+-
+  ExcelDate: June 20, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE Y10
+  Code: Internal
+  Subject: Economics
+  Paper: Paper 1
+  Session: p4b
+  Duration: 1h 30m
+-
+  ExcelDate: June 23, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 Maths
+  Paper: Paper 1
+  Session: am
+  Duration: 1h 30m
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 23, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Biology
+  Session: p4b
+  Duration: 1h 45m   
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 23, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y12
+  Qual: A Level 
+  Code: Internal
+  Subject: Maths
+  Paper: Applied
+  Session: p4b
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+      Writers: 1
+-
+  ExcelDate: June 24, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 1
+  Session: am
+  Duration: 1h 30m   
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 24, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: am
+  Duration: 1h 45m 
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 24, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y12
+  Qual: A Level 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: p4b
+  Duration: 2h 00m 
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+      Writers: 1
+-
+  ExcelDate: June 24, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Economics
+  Paper: Paper 1
+  Session: p4b
+  Duration: 1h 30m 
+  Rooms: 
+    - Room : HSLB
+      Writers: 1
+-
+  ExcelDate: June 25, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Chemistry Paper
+  Session: am
+  Duration: 1h 45m   
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 25, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 2
+  Session: p4b
+  Duration: 1h 30m     
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 25, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Sociology
+  Paper: Paper 1
+  Session: p4b
+  Duration: 1h 45m   
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 25, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: OCR National
+  Code: Internal
+  Subject: IT
+  Paper: RO50
+  Session: p4b
+  Duration: 1h 00m 
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 26, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Physics Paper
+  Session: am
+  Duration: 1h 45m     
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 26, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 Maths
+  Paper: Paper 2
+  Session: p4b
+  Duration: 1h 30m  
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 27, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 English Language
+  Paper: Paper 1
+  Session: am
+  Duration: 1h 30m  
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 27, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 Maths
+  Paper: Paper 3
+  Session: p4b
+  Duration: 1h 30m    
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2
+    - Room : CL4
+      Readers: 10
+-
+  ExcelDate: June 27, 2025 12:45:00
+  Series: June 19, 2025 00:00:00
+  Board: Y12
+  Qual: A Level 
+  Code: Internal
+  Subject: Maths
+  Paper: Applied
+  Session: p4b
+  Duration: 1h 30m   
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+      Writers: 1
+-
+  ExcelDate: July 07, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 Computer Science
+  Paper: Paper 2
+  Session: am
+  Duration: 1h 30m
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Readers: 1
+      Writers: 2
+-
+  ExcelDate: July 07, 2025 09:00:00
+  Series: June 19, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Y10 Economics
+  Paper: Paper 2
+  Session: am
+  Duration: 1h 30m
+  Rooms: 
+    - Room : Multi Purpose Hall 2028
+    - Room : HSLB
+      Writers: 2

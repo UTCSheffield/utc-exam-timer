@@ -1,0 +1,15 @@
+Summary Examination Timetable
+Season : November 2024
+Export Date : 04/11/2024
+
+Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
+18/11/2024, 8:45AM,H&S Development Base G019,Internal,GCSE,8700/1,"English Language Paper 1",105,1
+05/11/2024, 9:00AM,H&S Learning Base G018,AQA,GCSE,8700/1,"English Language Paper 1",105,5
+06/11/2024, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",90,10
+06/11/2024, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",113,5
+07/11/2024, 9:00AM,H&S Development Base G019,AQA,GCSE,8700/2,"English Language Paper 2",105,1
+07/11/2024, 9:00AM,H&S Learning Base G018,AQA,GCSE,8700/2,"English Language Paper 2",105,5
+08/11/2024, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",90,10
+08/11/2024, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",113,5
+11/11/2024, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",90,11
+11/11/2024, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",113,4

@@ -1,0 +1,130 @@
+Summary Examination Timetable
+Season : Domestic Season 2023
+Export Date : 20/11/2023
+
+Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
+27/11/2023, 8:45AM,Computing Lab 4 1023,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",132,10
+27/11/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",132,9
+27/11/2023, 8:45AM,H&S Learning Base G018,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",132,11
+27/11/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",105,66
+27/11/2023, 8:45AM,Outside Area,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",132,1
+27/11/2023, 8:45AM,Science Lab 1 3003,DOM,GCSE,LANGP1,"GCSE  English Language Paper 1",132,3
+27/11/2023,12:45PM,H&S Development Base G019,DOM,GCSE,SOCP1,"Y11 Sociology Paper 1",113,1
+27/11/2023,12:45PM,H&S Development Base G019,DOM,GCSE,ECONP1,"Y11  Economics Paper 1",90,2
+27/11/2023,12:45PM,H&S Learning Base G018,DOM,GCSE,SOCP1,"Y11 Sociology Paper 1",90,1
+27/11/2023,12:45PM,H&S Learning Base G018,DOM,GCSE,ECONP1,"Y11  Economics Paper 1",113,6
+27/11/2023,12:45PM,Multi Purpose Hall 2028,DOM,GCSE,ECONP1,"Y11  Economics Paper 1",90,15
+27/11/2023,12:50PM,H&S Development Base G019,DOM,CAMX,HSOC,"Y13 Technical Health & Social Care Unit 6",113,8
+27/11/2023,12:50PM,H&S Learning Base G018,DOM,CAMX,HSOC,"Y13 Technical Health & Social Care Unit 6",90,1
+27/11/2023,12:50PM,H&S Learning Base G018,DOM,CAMX,TCSPT,"Y13 Sport Unit 21",90,2
+27/11/2023,12:50PM,Multi Purpose Hall 2028,DOM,CAMX,HSOC,"Y13 Technical Health & Social Care Unit 6",90,30
+27/11/2023,12:50PM,Multi Purpose Hall 2028,DOM,CAMX,TCSPT,"Y13 Sport Unit 21",90,3
+27/11/2023, 1:30PM,Multi Purpose Hall 2028,DOM,GCSE,SOCP1,"Y11 Sociology Paper 1",90,13
+28/11/2023, 8:45AM,Computing Lab 4 1023,DOM,GCSE,TRIBIFO,"GCSE Biology Triple Foundation Paper 1",132,8
+28/11/2023, 8:45AM,Computing Lab 4 1023,DOM,GCSE,TRIBIHIG,"GCSE Biology Triple Higher Paper 1",132,2
+28/11/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,TRIBIFO,"GCSE Biology Triple Foundation Paper 1",105,6
+28/11/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,TRIBIHIG,"GCSE Biology Triple Higher Paper 1",132,3
+28/11/2023, 8:45AM,H&S Learning Base G018,DOM,GCSE,TRIBIHIG,"GCSE Biology Triple Higher Paper 1",132,10
+28/11/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,TRIBIFO,"GCSE Biology Triple Foundation Paper 1",105,22
+28/11/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,TRIBIHIG,"GCSE Biology Triple Higher Paper 1",105,48
+28/11/2023, 8:45AM,Outside Area,DOM,GCSE,TRIBIFO,"GCSE Biology Triple Foundation Paper 1",132,1
+28/11/2023, 8:45AM,Science Lab 1 3003,DOM,GCSE,TRIBIFO,"GCSE Biology Triple Foundation Paper 1",132,3
+28/11/2023, 8:45AM,Science Lab 1 3003,DOM,GCSE,TRIBIHIG,"GCSE Biology Triple Higher Paper 1",132,1
+28/11/2023,11:25AM,H&S Development Base G019,DOM,GCSE,GEOGR,"Y11 GCSE Geography P1",113,7
+28/11/2023,11:25AM,H&S Learning Base G018,DOM,GCSE,GEOGR,"Y11 GCSE Geography P1",113,7
+28/11/2023,11:25AM,Multi Purpose Hall 2028,DOM,GCSE,GEOGR,"Y11 GCSE Geography P1",90,31
+28/11/2023,11:25AM,Outside Area,DOM,GCSE,GEOGR,"Y11 GCSE Geography P1",113,3
+28/11/2023, 1:30PM,H&S Development Base G019,DOM,GCE,ASCHEM,"AS Chemistry Breadth in Chem",113,1
+28/11/2023, 1:30PM,Multi Purpose Hall 2028,DOM,GCE,ADVP1H,"Y13 Maths Paper 1",120,9
+28/11/2023, 1:30PM,Multi Purpose Hall 2028,DOM,GCE,ASCHEM,"AS Chemistry Breadth in Chem",90,3
+29/11/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MP1,"GCSE Maths Paper 1 Non Cal",90,8
+29/11/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MAPA1,"GCSE Maths Paper 1  Non Cal",113,4
+29/11/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MP1,"GCSE Maths Paper 1 Non Cal",113,8
+29/11/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MAPA1,"GCSE Maths Paper 1  Non Cal",113,11
+29/11/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MP1,"GCSE Maths Paper 1 Non Cal",90,25
+29/11/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MAPA1,"GCSE Maths Paper 1  Non Cal",90,43
+29/11/2023, 9:00AM,Outside Area,DOM,GCSE,MP1,"GCSE Maths Paper 1 Non Cal",113,1
+30/11/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,CSCIEN,"GCSE  Computer Science Paper 1",113,5
+30/11/2023, 9:00AM,H&S Development Base G019,DOM,GCE,ASCHEMD,"AS Chemistry Depth in Chem",113,1
+30/11/2023, 9:00AM,H&S Learning Base G018,DOM,GCE,PSP1,"Y13 Psychology Paper 1",113,1
+30/11/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,CSCIEN,"GCSE  Computer Science Paper 1",113,10
+30/11/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCE,PSP1,"Y13 Psychology Paper 1",90,14
+30/11/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,CSCIEN,"GCSE  Computer Science Paper 1",90,16
+30/11/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCE,ASCHEMD,"AS Chemistry Depth in Chem",90,3
+30/11/2023, 9:00AM,Science Lab 1 3003,DOM,GCSE,CSCIEN,"GCSE  Computer Science Paper 1",113,3
+30/11/2023, 1:45PM,Computing Lab 4 1023,DOM,GCSE,TRICHFO,"Chemistry Triple Foundation Paper 1",132,8
+30/11/2023, 1:45PM,Computing Lab 4 1023,DOM,GCSE,TRICHHI,"GCSE Chemistry Triple Higher Paper 1",132,2
+30/11/2023, 1:45PM,H&S Development Base G019,DOM,GCSE,TRICHFO,"Chemistry Triple Foundation Paper 1",132,10
+30/11/2023, 1:45PM,H&S Learning Base G018,DOM,GCSE,TRICHHI,"GCSE Chemistry Triple Higher Paper 1",132,9
+30/11/2023, 1:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRICHFO,"Chemistry Triple Foundation Paper 1",105,28
+30/11/2023, 1:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRICHHI,"GCSE Chemistry Triple Higher Paper 1",105,43
+30/11/2023, 1:45PM,Outside Area,DOM,GCSE,TRICHFO,"Chemistry Triple Foundation Paper 1",132,1
+30/11/2023, 1:45PM,Science Lab 1 3003,DOM,GCSE,TRICHFO,"Chemistry Triple Foundation Paper 1",132,2
+30/11/2023, 1:45PM,Science Lab 1 3003,DOM,GCSE,TRICHHI,"GCSE Chemistry Triple Higher Paper 1",132,1
+01/12/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MP2,"GCSE Maths Paper 2 Cal",90,8
+01/12/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MP2CA,"GCSE Maths Paper 2 Calc",113,5
+01/12/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MP2,"GCSE Maths Paper 2 Cal",113,9
+01/12/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MP2CA,"GCSE Maths Paper 2 Calc",113,10
+01/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MP2,"GCSE Maths Paper 2 Cal",90,24
+01/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MP2CA,"GCSE Maths Paper 2 Calc",90,43
+01/12/2023, 9:00AM,Outside Area,DOM,GCSE,MP2,"GCSE Maths Paper 2 Cal",113,1
+01/12/2023,12:45PM,Computing Lab 4 1023,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",132,9
+01/12/2023,12:45PM,Computing Lab 4 1023,DOM,GCSE,TRIPHH,"GCSE Physics Triple Higher Paper 1",105,1
+01/12/2023,12:45PM,H&S Development Base G019,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",132,9
+01/12/2023,12:45PM,H&S Learning Base G018,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",132,3
+01/12/2023,12:45PM,H&S Learning Base G018,DOM,GCSE,TRIPHH,"GCSE Physics Triple Higher Paper 1",132,7
+01/12/2023,12:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",105,26
+01/12/2023,12:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRIPHH,"GCSE Physics Triple Higher Paper 1",105,45
+01/12/2023,12:45PM,Outside Area,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",132,1
+01/12/2023,12:45PM,Science Lab 1 3003,DOM,GCSE,TRIPHFO,"GCSE Physics Triple Foundation Paper 1",132,3
+04/12/2023, 8:45AM,Computing Lab 4 1023,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",132,9
+04/12/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",132,9
+04/12/2023, 8:45AM,H&S Learning Base G018,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",132,11
+04/12/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",105,67
+04/12/2023, 8:45AM,Outside Area,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",132,1
+04/12/2023, 8:45AM,Science Lab 1 3003,DOM,GCSE,LITP1,"GCSE English Literature Paper 1",132,3
+04/12/2023,12:45PM,H&S Development Base G019,DOM,GCSE,ECOP2,"Y11 Economics Paper 2",90,3
+04/12/2023,12:45PM,H&S Learning Base G018,DOM,GCSE,ECOP2,"Y11 Economics Paper 2",113,5
+04/12/2023,12:45PM,Multi Purpose Hall 2028,DOM,GCSE,ECOP2,"Y11 Economics Paper 2",90,15
+04/12/2023,12:50PM,H&S Learning Base G018,DOM,CAMX,HSO,"Y12 Health & Social Care Unit 3",113,4
+04/12/2023,12:50PM,Multi Purpose Hall 2028,DOM,CAMX,HSO,"Y12 Health & Social Care Unit 3",90,25
+04/12/2023,12:50PM,Multi Purpose Hall 2028,DOM,CAMX,TCSP,"Y12 Sport Unit 3",60,5
+05/12/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCE,AVCOMP,"ADV Computer Science",150,10
+05/12/2023,11:25AM,H&S Development Base G019,DOM,GCSE,GCSEPC,"GCSE Psychology Paper 1",132,3
+05/12/2023,11:25AM,H&S Learning Base G018,DOM,GCSE,GCSEPC,"GCSE Psychology Paper 1",132,4
+05/12/2023,11:25AM,Multi Purpose Hall 2028,DOM,GCSE,GCSEPC,"GCSE Psychology Paper 1",105,31
+05/12/2023,11:25AM,Outside Area,DOM,GCSE,GCSEPC,"GCSE Psychology Paper 1",132,1
+05/12/2023, 1:30PM,Multi Purpose Hall 2028,DOM,GCE,ADVP2H,"Y13 Maths Paper 2",120,9
+06/12/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MP3,"GCSE Maths Paper 3 Cal",90,8
+06/12/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,MP3CA,"GCSE  Maths Paper 3 Cal",113,4
+06/12/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MP3,"GCSE Maths Paper 3 Cal",113,9
+06/12/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,MP3CA,"GCSE  Maths Paper 3 Cal",113,11
+06/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MP3,"GCSE Maths Paper 3 Cal",90,24
+06/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,MP3CA,"GCSE  Maths Paper 3 Cal",90,43
+06/12/2023, 9:00AM,Outside Area,DOM,GCSE,MP3,"GCSE Maths Paper 3 Cal",113,1
+07/12/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCE,ADVMP3,"Y13 Maths Paper 3",120,7
+07/12/2023, 9:00AM,H&S Development Base G019,DOM,CNAT,SPSC,"Sport  Studies",94,4
+07/12/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,COMP2,"Computer Science Paper 2",113,5
+07/12/2023, 9:00AM,H&S Learning Base G018,DOM,CNAT,SPSC,"Sport  Studies",94,4
+07/12/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,COMP2,"Computer Science Paper 2",113,10
+07/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,CNAT,SPSC,"Sport  Studies",75,26
+07/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,COMP2,"Computer Science Paper 2",90,16
+07/12/2023, 9:00AM,Outside Area,DOM,CNAT,SPSC,"Sport  Studies",94,1
+07/12/2023, 9:00AM,Science Lab 1 3003,DOM,GCSE,COMP2,"Computer Science Paper 2",113,3
+07/12/2023,11:00AM,H&S Development Base G019,DOM,CNAT,SPSC,"Sport  Studies",75,2
+07/12/2023, 1:45PM,H&S Learning Base G018,DOM,GCE,ASBIOD,"AS Depth In Biology",113,2
+07/12/2023, 1:45PM,Multi Purpose Hall 2028,DOM,GCE,ASBIOD,"AS Depth In Biology",90,13
+08/12/2023, 9:00AM,Computing Lab 4 1023,DOM,CNAT,CAMSP/SC,"Cambridge Nationnals In Sport Science",94,1
+08/12/2023, 9:00AM,Computing Lab 4 1023,DOM,CNAT,Health,"Cambridge Nationals Health",94,3
+08/12/2023, 9:00AM,Computing Lab 4 1023,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",94,3
+08/12/2023, 9:00AM,H&S Development Base G019,DOM,CNAT,CAMSP/SC,"Cambridge Nationnals In Sport Science",94,4
+08/12/2023, 9:00AM,H&S Development Base G019,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",94,5
+08/12/2023, 9:00AM,H&S Learning Base G018,DOM,CNAT,Health,"Cambridge Nationals Health",75,1
+08/12/2023, 9:00AM,H&S Learning Base G018,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",94,5
+08/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,CNAT,CAMSP/SC,"Cambridge Nationnals In Sport Science",75,32
+08/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,CNAT,Health,"Cambridge Nationals Health",75,24
+08/12/2023, 9:00AM,Multi Purpose Hall 2028,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",75,15
+08/12/2023, 9:00AM,Outside Area,DOM,CNAT,CAMSP/SC,"Cambridge Nationnals In Sport Science",94,1
+08/12/2023, 9:00AM,Outside Area,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",94,1
+08/12/2023, 9:00AM,Science Lab 1 3003,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",94,2
+08/12/2023,11:00AM,H&S Development Base G019,DOM,CNAT,CAMBIT,"Cambridge Nationals In IT",75,7

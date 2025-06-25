@@ -1,6 +1,11 @@
 /*global
 luxon today
 */
+const bShowCountDown = false;
+
+var lLoadTime = luxon.DateTime.local({ zone: "Europe/London" });
+//console.log("lLoadTime", lLoadTime);
+
 function roundUp(m) {
   return m.second() || m.millisecond()
     ? m.add(1, "minute").startOf("minute")
@@ -29,9 +34,8 @@ function showTime() {
   var latestfinish = 0;
 
   const regExp = /[snSN]/g;
-  const regExp2 = /[hH]/g;  
-  
-  
+  const regExp2 = /[hH]/g;
+
   for (var i = 0; i < els.length; i++) {
     var dur_el = els[i].parentNode.parentNode.childNodes[2].lastChild.innerHTML;
     var dur_val =
@@ -41,34 +45,42 @@ function showTime() {
     var dur = luxon.Duration.fromObject({ minutes: dur_val });
     var hoursmins = dur.shiftTo("hours", "minutes"); //=> 51984
 
-    var finish_el = els[i].parentNode.parentNode.childNodes[4].lastChild.innerHTML;
-    
+    var finish_el =
+      els[i].parentNode.parentNode.childNodes[4].lastChild.innerHTML;
+
     var style_el = els[i].parentNode.parentNode.parentNode;
     var section_el = style_el.parentNode.parentNode;
-    var lastValid = els[i].getAttribute("data-lastvalid") ;
-    if (lastValid == null){
-      lastValid = els[i].innerHTML
+    var lastValid = els[i].getAttribute("data-lastvalid");
+    if (lastValid == null) {
+      lastValid = els[i].innerHTML;
       els[i].setAttribute("data-lastvalid", lastValid);
     }
     var time = luxon.DateTime.fromFormat(lastValid, "HH:mm");
-    
+
     // If change
-    if(els[i].innerHTML != lastValid){  
+    if (els[i].innerHTML != lastValid) {
       var newTime = luxon.DateTime.fromFormat(els[i].innerHTML, "HH:mm");
       if (newTime.invalid != null) {
         //Hides the group if you put h into thte start time
         if (section_el.style.display == "" && regExp2.test(els[i].innerHTML)) {
           section_el.style.display = "none";
           newTime = time;
-        } else if (regExp.test(els[i].innerHTML)) { // typing s(Start) or n for now will set the start time to the next minute
-          newTime = luxon.DateTime.local({ zone: "Europe/London" })
-            .plus(luxon.Duration.fromObject({ minutes: 1 }))
+        } else if (regExp.test(els[i].innerHTML)) {
+          // typing s(Start) or n for now will set the start time to the next minute
+          newTime = luxon.DateTime.local({ zone: "Europe/London" }).plus(
+            luxon.Duration.fromObject({ minutes: 1 })
+          );
         } else if (els[i].innerHTML.includes("+")) {
           newTime = time.plus(luxon.Duration.fromObject({ minutes: 1 }));
+        } else if (els[i].innerHTML.includes("d")) {
+          newTime = time.plus(luxon.Duration.fromObject({ minutes: 5 }));
         } else if (els[i].innerHTML.includes("-")) {
           newTime = time.minus(luxon.Duration.fromObject({ minutes: 1 }));
         } else if (els[i].innerHTML.includes("<br>")) {
-          newTime = luxon.DateTime.fromFormat(els[i].innerHTML.replaceAll("<br>","").trim(), "HH:mm");
+          newTime = luxon.DateTime.fromFormat(
+            els[i].innerHTML.replaceAll("<br>", "").trim(),
+            "HH:mm"
+          );
         }
       }
       if (newTime.invalid == null) {
@@ -77,7 +89,7 @@ function showTime() {
         els[i].setAttribute("data-lastvalid", els[i].innerHTML);
       }
     }
-    
+
     var extra25 = time.plus(
       luxon.Duration.fromObject({ minutes: Math.ceil(dur_val * 1.25) })
     );
@@ -95,7 +107,7 @@ function showTime() {
       style_el.className = "done";
       style_el.parentNode.className = "done";
     } else if (
-      nowtime > extra25.minus(luxon.Duration.fromObject({ minutes: 5 }))
+      bShowCountDown && nowtime > extra25.minus(luxon.Duration.fromObject({ minutes: 5 }))
     ) {
       style_el.className = "extranearly";
       style_el.parentNode.className = "extranearly";
@@ -103,7 +115,7 @@ function showTime() {
       style_el.className = "extra";
       style_el.parentNode.className = "extra";
     } else if (
-      nowtime > finish.minus(luxon.Duration.fromObject({ minutes: 5 }))
+      bShowCountDown && nowtime > finish.minus(luxon.Duration.fromObject({ minutes: 5 }))
     ) {
       style_el.className = "nearly";
       style_el.parentNode.className = "nearly";
@@ -173,25 +185,28 @@ function showTime() {
     latestfinish &&
     lToday.toISODate() == latestfinish.toISODate()
   ) {
-    location.reload();
+    //console.log("Checking load time")
+    if (nowtime > lLoadTime + luxon.Duration.fromObject({ minutes: 1 })) {
+      location.reload();
+    }
   }
 
-  setTimeout(showTime, 1000);
+  setTimeout(showTime, 200);
 }
 
-
-
-function boosters(){
+function boosters() {
   setTimeout(_boosters, 60000); //delay of 1 minutes
 }
 
-function _boosters(){
+function _boosters() {
   //check it is the minute of 13:35
-  var lToday = luxon.DateTime.fromMillis(today, { zone: "Europe/London" }).plus(luxon.Duration.fromObject({ minutes: 5 }));
+  var lToday = luxon.DateTime.fromMillis(today, { zone: "Europe/London" }).plus(
+    luxon.Duration.fromObject({ minutes: 5 })
+  );
   const lNow = luxon.DateTime.local({ zone: "Europe/London" });
-  const iDif = lToday.diff(lNow).as('seconds')
+  const iDif = lToday.diff(lNow).as("seconds");
   //console.log("iDif", iDif)
-  if(iDif < 0){
+  if (iDif < 0) {
     location.reload();
   }
   setTimeout(_boosters, 30000); // delay 30 seconds

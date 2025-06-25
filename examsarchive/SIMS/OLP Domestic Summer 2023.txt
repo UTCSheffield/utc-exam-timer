@@ -3,7 +3,6 @@ Season : Domestic Season 2023
 Export Date : 20/06/2023
 
 Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
-23/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,FSMQ,6993/01,"Maths: Additional Maths Paper 1",120,8
 26/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",132,12
 26/06/2023, 9:00AM,H&S Learning Base G018,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",105,6
 26/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,TRIBIP2,"Y10 Biology Triple Paper 2",132,83
@@ -22,8 +21,8 @@ Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,N
 27/06/2023, 1:45PM,H&S Learning Base G018,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",105,6
 27/06/2023, 1:45PM,Multi Purpose Hall 2028,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",132,83
 27/06/2023, 1:45PM,Science Lab 4,DOM,GCSE,TRICHHI,"Y10 Chemistry Triple Higher Paper 1",132,1
-28/06/2023, 9:00AM,H&S Development Base G019,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",132,5
-28/06/2023, 9:00AM,Multi Purpose Hall 2028,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",132,34
+28/06/2023, 8:45AM,H&S Development Base G019,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",105,5
+28/06/2023, 8:45AM,Multi Purpose Hall 2028,DOM,GCSE,PSTP1,"Y10  Psychology Paper 1",105,34
 28/06/2023,10:55AM,H&S Development Base G019,DOM,GCSE,ENGLT,"Y10 English Literature",169,12
 28/06/2023,10:55AM,H&S Learning Base G018,DOM,GCSE,ENGLT,"Y10 English Literature",135,6
 28/06/2023,10:55AM,Multi Purpose Hall 2028,DOM,GCSE,ENGLT,"Y10 English Literature",169,83

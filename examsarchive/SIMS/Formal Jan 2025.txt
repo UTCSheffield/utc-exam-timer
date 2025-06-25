@@ -1,0 +1,54 @@
+Summary Examination Timetable
+Season : January 2025
+Export Date : 05/12/2024
+
+Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
+08/01/2025, 9:00AM,GRA Office 2033,RSA,CAMX,583901,"EC3IT : U1 Fundamentals of IT",113,1
+08/01/2025, 9:00AM,H&S Development Base G019,RSA,CAMX,583302,"DI3HSC: U2 Equality Diversity & Rights",90,1
+08/01/2025, 9:00AM,H&S Development Base G019,RSA,CAMX,587102,"ED3HSC: U2 Equality Diversity & Rights",90,3
+08/01/2025, 9:00AM,H&S Learning Base G018,RSA,CAMX,587102,"ED3HSC: U2 Equality Diversity & Rights",113,1
+08/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,583102,"EC3HSC: U2 Equality Diversity & Rights",90,2
+08/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,583302,"DI3HSC: U2 Equality Diversity & Rights",90,4
+08/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587102,"ED3HSC: U2 Equality Diversity & Rights",90,16
+08/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,583901,"EC3IT : U1 Fundamentals of IT",90,1
+08/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587701,"ED3IT : U1 Fundamentals of IT",90,1
+08/01/2025, 1:30PM,Computing Lab 4 1023,OCR,CNAT,R032/01,"Hsc: Prncpls Care in Hsc Sttngs Wtn",94,6
+08/01/2025, 1:30PM,GRA Office 2033,OCR,CNAT,R032/01,"Hsc: Prncpls Care in Hsc Sttngs Wtn",94,1
+08/01/2025, 1:30PM,H&S Development Base G019,OCR,CNAT,R032/01,"Hsc: Prncpls Care in Hsc Sttngs Wtn",75,5
+08/01/2025, 1:30PM,H&S Learning Base G018,OCR,CNAT,R032/01,"Hsc: Prncpls Care in Hsc Sttngs Wtn",94,2
+08/01/2025, 1:30PM,Multi Purpose Hall 2028,OCR,CNAT,R032/01,"Hsc: Prncpls Care in Hsc Sttngs Wtn",75,23
+09/01/2025, 9:00AM,H&S Development Base G019,RSA,CAMX,587201,"ED3SP : U1 Body Sys & Eff of Phy Activ",90,1
+09/01/2025, 9:00AM,H&S Learning Base G018,RSA,CAMX,582901,"DI3SP : U1 Body Sys & Eff of Phy Activ",90,1
+09/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587201,"ED3SP : U1 Body Sys & Eff of Phy Activ",90,14
+09/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,584701,"EC3AS : U1 Science Fundamentals",120,1
+10/01/2025, 1:00PM,GRA Office 2033,RSA,CAMX,583902,"EC3IT : U2 Global Information",113,1
+10/01/2025, 1:00PM,H&S Development Base G019,RSA,CAMX,583303,"DI3HSC: U3 Health Safety & Security",90,1
+10/01/2025, 1:00PM,H&S Development Base G019,RSA,CAMX,587103,"ED3HSC: U3 Health Safety & Security",90,2
+10/01/2025, 1:00PM,H&S Learning Base G018,RSA,CAMX,587103,"ED3HSC: U3 Health Safety & Security",113,1
+10/01/2025, 1:00PM,Multi Purpose Hall 2028,RSA,CAMX,583103,"EC3HSC: U3 Health Safety & Security",90,2
+10/01/2025, 1:00PM,Multi Purpose Hall 2028,RSA,CAMX,583303,"DI3HSC: U3 Health Safety & Security",90,4
+10/01/2025, 1:00PM,Multi Purpose Hall 2028,RSA,CAMX,587103,"ED3HSC: U3 Health Safety & Security",90,18
+10/01/2025, 1:00PM,Multi Purpose Hall 2028,RSA,CAMX,583902,"EC3IT : U2 Global Information",90,1
+13/01/2025, 1:30PM,H&S Development Base G019,RSA,CAMX,587104,"ED3HSC: U4 Anatomy & Physiology",120,1
+13/01/2025, 1:30PM,H&S Learning Base G018,RSA,CAMX,582903,"DI3SP : U3 Sports Organise & Develop",75,1
+13/01/2025, 1:30PM,H&S Learning Base G018,RSA,CAMX,587203,"ED3SP : U3 Sports Organise & Develop",75,1
+13/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587104,"ED3HSC: U4 Anatomy & Physiology",120,7
+13/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,582903,"DI3SP : U3 Sports Organise & Develop",60,1
+13/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587203,"ED3SP : U3 Sports Organise & Develop",60,15
+14/01/2025, 1:30PM,H&S Development Base G019,RSA,CAMX,587106,"ED3HSC: U6 Personal & Pers Centre Appro",90,3
+14/01/2025, 1:30PM,H&S Learning Base G018,RSA,CAMX,587106,"ED3HSC: U6 Personal & Pers Centre Appro",113,3
+14/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583306,"DI3HSC: U6 Personal & Pers Centre Appro",90,3
+14/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587106,"ED3HSC: U6 Personal & Pers Centre Appro",90,14
+15/01/2025, 9:00AM,H&S Development Base G019,RSA,CAMX,583903,"EC3IT : U3 Cyber Security",60,1
+15/01/2025, 9:00AM,H&S Learning Base G018,RSA,CAMX,583903,"EC3IT : U3 Cyber Security",75,1
+15/01/2025, 1:30PM,H&S Learning Base G018,RSA,CAMX,587204,"ED3SP : U4 Work Safe in Sport Exehlth",113,1
+15/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587204,"ED3SP : U4 Work Safe in Sport Exehlth",90,1
+16/01/2025, 9:00AM,H&S Development Base G019,RSA,CAMX,587107,"ED3HSC: U7 Safeguarding",90,3
+16/01/2025, 9:00AM,H&S Learning Base G018,RSA,CAMX,587107,"ED3HSC: U7 Safeguarding",113,3
+16/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,583307,"DI3HSC: U7 Safeguarding",90,3
+16/01/2025, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587107,"ED3HSC: U7 Safeguarding",90,13
+17/01/2025, 9:00AM,GRA Office 2033,RSA,CAMX,5877CC,"ED3IT : Ucc Cloud Technology",90,1
+17/01/2025, 1:30PM,H&S Development Base G019,RSA,CAMX,587125,"ED3HSC: U25 Research Method H & SC & CC",150,3
+17/01/2025, 1:30PM,H&S Learning Base G018,RSA,CAMX,587125,"ED3HSC: U25 Research Method H & SC & CC",120,3
+17/01/2025, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587125,"ED3HSC: U25 Research Method H & SC & CC",120,15
+17/01/2025, 9:20AM,Multi Purpose Hall 2028,RSA,CAMX, 587721,"ED3SP : U21 Sports Business",90,15

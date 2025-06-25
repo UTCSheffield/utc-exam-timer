@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  lang="en">
+  {{> head }}
+  <body >
+    
+    <div class="error">
+      <ul>
+      {{!log "errors" errors}}
+      {{#each errors as |error|}}
+        <li>{{error}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    
+    <div>
+      <h1>
+        No Exams Currently Set 
+      </h1>
+      <img src="https://cdn.glitch.global/df4aa39d-6724-41d4-8681-feecebaa41c6/UTC-Sheffield-Olympic-Legacy-Park-Horizontal-600x83.png?v=1684146790507"
+         style="width:100%; max-width:600px"
+           />  
+           
+      <ul>
+        <li>
+          <a href="/{{ thispage }}">Reload</a>    
+        </li>
+        <li>
+          <a href="/">Index</a> 
+        </li>
+      </ul>      
+      </div>
+  </body>
+</html>

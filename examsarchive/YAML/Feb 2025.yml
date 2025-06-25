@@ -1,0 +1,362 @@
+%YAML 1.2
+---
+-
+  ExcelDate: February 24, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 1
+  Session: P4b
+  Duration: 1h 30m 
+-
+  ExcelDate: February 25, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1 (Non Calculator)
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: February 25, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: OCR Technical
+  Code: Internal
+  Subject: ICT
+  Paper: Unit 1
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: February 25, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 00m 
+-
+  ExcelDate: February 25, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 1 Pure
+  Session: P1
+  Duration: 2h 00m 
+-
+  ExcelDate: February 25, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Biology
+  Session: P4b
+  Duration: 1h 45m 
+-
+  ExcelDate: February 26, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: English Language
+  Paper: Paper 1
+  Session: P1 
+  Duration: 1h 45m 
+-
+  ExcelDate: February 26, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Economics
+  Paper: Paper 1
+  Session: P4b
+  Duration: 1h 30m  
+-
+  ExcelDate: February 26, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Sociology
+  Paper: Paper 1
+  Session: P4b
+  Duration: 1h 45m 
+-
+  ExcelDate: February 27 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: February 27, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level 
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 2
+  Session: P1
+  Duration: 2h 00m 
+-
+  ExcelDate: February 27, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: OCR National
+  Code: Internal
+  Subject: Computing
+  Paper: RO50
+  Session: P4b
+  Duration: 1h 30m 
+-
+  ExcelDate: February 27, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P1
+  Duration: 2h 30m 
+-
+  ExcelDate: February 27, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: A Level 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P4b
+  Duration: 2h 30m 
+-
+  ExcelDate: February 27, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: T Level
+  Code: Internal
+  Subject: Digital Production, Design and Development
+  Paper: Paper 1
+  Session: P4b
+  Duration: 2h 30m 
+-
+  ExcelDate: February 28, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Chemistry Paper
+  Session: P1
+  Duration: 1h 45m 
+-
+  ExcelDate: February 28, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 1
+  Session: P4b
+  Duration: 1h 30m     
+-
+  ExcelDate: February 28, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: OCR National
+  Code: Internal
+  Subject: Sport Studies
+  Paper: R184 - Contemporary Issues
+  Session: P4b
+  Duration: 1h 15m 
+-
+  ExcelDate: February 28, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: OCR Technical
+  Code: Internal
+  Subject: Health
+  Paper: Unit 4
+  Session: P4b
+  Duration: 2h 00m 
+-
+  ExcelDate: March 3, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 3
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: March 3, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 2
+  Session: P4b
+  Duration: 1h 30m 
+-
+  ExcelDate: March 3, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P4b
+  Duration: 1h 20m 
+-
+  ExcelDate: March 3, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: T Level
+  Code: Internal
+  Subject: Digital Production, Design and Development
+  Paper: Paper 2
+  Session: P4b
+  Duration: 2 30m 
+-
+  ExcelDate: March 4 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Science
+  Paper: Physics
+  Session: P1
+  Duration: 1h 45m 
+-
+  ExcelDate: March 4, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: OCR Technical
+  Code: Internal
+  Subject: IT
+  Paper: Unit 2
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: March 4, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level 
+  Code: Internal
+  Subject: Maths
+  Paper: Applied
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: March 4, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: A Level 
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P4b
+  Duration: 2h 00m 
+-
+  ExcelDate: March 4, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 3
+  Session: P4b
+  Duration: 2h 00m 
+-
+  ExcelDate: March 5, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: English Lit
+  Paper: Paper 1
+  Session: P1 
+  Duration: 2h 15m 
+-
+  ExcelDate: March 5, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 2
+  Session: P1
+  Duration: 2h 30m 
+-
+  ExcelDate: March 5, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Economics
+  Paper: Paper 2
+  Session: P4b
+  Duration: 1h 30m  
+-
+  ExcelDate: March 5, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y13
+  Qual: A Level
+  Code: Internal
+  Subject: Psychology
+  Paper: Paper 1
+  Session: P4b
+  Duration: 2h 00m 
+-
+  ExcelDate: March 6, 2025 08:45:00
+  Series: February 24, 2025 00:00:00
+  Board: Y12
+  Qual: A/S Level 
+  Code: Internal
+  Subject: Maths
+  Paper: Paper 2 Applied
+  Session: P1
+  Duration: 1h 30m 
+-
+  ExcelDate: March 6, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: GCSE 
+  Code: Internal
+  Subject: Computer Science
+  Paper: Paper 2
+  Session: P4b
+  Duration: 1h 30m 
+-
+  ExcelDate: March 6, 2025 12:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y11
+  Qual: OCR National
+  Code: Internal
+  Subject: Sport Science
+  Paper: R180 - Sports Science
+  Session: P4b
+  Duration: 1h 15m 
+-
+  ExcelDate: March 7, 2025 08:50:00
+  Series: February 24, 2025 00:00:00
+  Board: Y10
+  Qual: GCSE
+  Code: Internal
+  Subject: Geography
+  Paper: Paper 1
+  Session: P1
+  Duration: 1h 30m 
