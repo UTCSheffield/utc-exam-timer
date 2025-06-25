@@ -6,34 +6,32 @@
     <main>  
       {{> session }}    
     </main>
-
     <footer>
-          <details>
-      <summary>Menu</summary>
-            <nav>
-      <ul>
-        <li><a href="/">home</a></li>
-        <li><a href="/current">current</a>
-        {{#each rooms as |room|}}
-        <li>   <a href="/current/room/{{ room.name }}">{{ room.name }}</a> </li>
-        {{/each}}
-         <li><a href="/session/{{next}}">next</a></li>
-      </ul>
-      <h3>
-        Instructions
-      </h3>
-              <p>Use the tab key to navigate. Pressing enter will activate links.</p>
-              <p>Typing the following in a time box will cause the time to change.</p>
-      <dl>
-        <dt>s</dt><dd>Start at the next minute</dd>
-        <dt>+</dt><dd>Add an extra minute to the start time</dd>
-        <dt>-</dt><dd>Subtract a minute from the start time</dd>
-        <dt>h</dt><dd>Hide this group of exams</dd>
-      </dl>
-      </p>
-      </nav>
-    
-    </details>
+      <details>
+        <summary>Menu</summary>
+        <nav>
+          <ul>
+            <li><a href="/current"><b>Reload</b></a></li>
+            <li><a href="/"><b>home</b></a></li>
+            {{#each rooms as |room|}}
+              <li><a href="/current/room/{{ room.name }}">{{ room.name }}</a> </li>
+            {{/each}}
+            <li><a href="/session/{{next}}">next</a></li>
+          </ul>
+          <h3>
+            Instructions
+          </h3>
+          <p>Use the tab key to navigate. Pressing enter will activate links.</p>
+          <p>Typing the following in a time box will cause the time to change.</p>
+          <dl>
+            <dt>s</dt><dd>Start at the next minute</dd>
+            <dt>+</dt><dd>Add an extra minute to the start time</dd>
+            <dt>-</dt><dd>Subtract a minute from the start time</dd>
+            <dt>d</dt><dd>Delay start time by 5 minutes</dd>
+            <dt>h</dt><dd>Hide this group of exams</dd>
+          </dl>
+        </nav>  
+      </details>
     </footer>
   </body>
 </html>

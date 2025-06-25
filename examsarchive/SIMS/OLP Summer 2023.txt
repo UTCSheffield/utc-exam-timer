@@ -1,0 +1,246 @@
+Summary Examination Timetable
+Season : Summer 2023
+Export Date : 26/04/2023
+
+Date,Start Time,Room,Board,Qualification,Component Code,Component Title,Length,Number of Candidates
+15/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H020/01,"Biology A: Breadth in Biology Wrtn",90,1
+15/05/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,584201,"DI3IT : U1 Fundamentals of IT",90,10
+15/05/2023, 1:30PM,Creative Space,EDEXL/GCE,GCE,8FM0 01,"Core Pure Mathematics",100,1
+16/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J247/01,"Biology A (Gtway) : Paper 1 (Fnd) Wtn",132,4
+16/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J247/03,"Biology A (Gtway) : Paper 3 (Hgh) Wtn",132,1
+16/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCE,H032/01,"Chemistry A: Breadth in Chemistry Wtn",113,1
+16/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J247/01,"Biology A (Gtway) : Paper 1 (Fnd) Wtn",105,5
+16/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J247/03,"Biology A (Gtway) : Paper 3 (Hgh) Wtn",105,4
+16/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J247/01,"Biology A (Gtway) : Paper 1 (Fnd) Wtn",132,9
+16/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J247/03,"Biology A (Gtway) : Paper 3 (Hgh) Wtn",132,1
+16/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J247/01,"Biology A (Gtway) : Paper 1 (Fnd) Wtn",105,36
+16/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J247/03,"Biology A (Gtway) : Paper 3 (Hgh) Wtn",105,31
+16/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H032/01,"Chemistry A: Breadth in Chemistry Wtn",90,1
+16/05/2023, 9:00AM,Outside Area,OCR,GCSE,J250/07,"Comb Sci A: Paper 7 (Hgh) Wrtn",70,1
+16/05/2023, 9:00AM,Science Lab 4,OCR,GCSE,J247/01,"Biology A (Gtway) : Paper 1 (Fnd) Wtn",132,3
+16/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,583302,"DI3HSC: U2 Equality Diversity & Rights",113,1
+16/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587102,"ED3HSC: U2 Equality Diversity & Rights",113,5
+16/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583102,"EC3HSC: U2 Equality Diversity & Rights",90,6
+16/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583302,"DI3HSC: U2 Equality Diversity & Rights",90,10
+16/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587102,"ED3HSC: U2 Equality Diversity & Rights",90,18
+17/05/2023, 9:00AM,Computing Lab 4 1023,AQA,GCSE,8702/1,"English Literature Paper 1",132,5
+17/05/2023, 9:00AM,H&S Development Base G019,AQA,GCSE,8702/1,"English Literature Paper 1",132,11
+17/05/2023, 9:00AM,H&S Learning Base G018,AQA,GCSE,8702/1,"English Literature Paper 1",105,9
+17/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H156/01,"Physics A: Breadth in Physics Wrtn",90,4
+17/05/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8702/1,"English Literature Paper 1",105,65
+17/05/2023, 9:00AM,Outside Area,AQA,GCSE,8702/1,"English Literature Paper 1",105,1
+17/05/2023, 9:00AM,Science Lab 4,AQA,GCSE,8702/1,"English Literature Paper 1",132,3
+17/05/2023, 1:30PM,Multi Purpose Hall 2028,OCR,CNAT,R051/01,"Sprt Stdies: Cntmpry Issues Sprt Wrtn",75,2
+18/05/2023, 9:00AM,H&S Development Base G019,RSA,CAMX,587201,"ED3SP : U1 Body Sys & Eff of Phy Activ",90,1
+18/05/2023, 9:00AM,H&S Learning Base G018,RSA,CAMX,587201,"ED3SP : U1 Body Sys & Eff of Phy Activ",113,3
+18/05/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCE,7716/1A,"English Literature B AS Paper 1A",90,1
+18/05/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,582901,"DI3SP : U1 Body Sys & Eff of Phy Activ",90,1
+18/05/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587201,"ED3SP : U1 Body Sys & Eff of Phy Activ",90,9
+18/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,583303,"DI3HSC: U3 Health Safety & Security",113,1
+18/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587103,"ED3HSC: U3 Health Safety & Security",113,5
+18/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583103,"EC3HSC: U3 Health Safety & Security",90,5
+18/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583303,"DI3HSC: U3 Health Safety & Security",90,9
+18/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587103,"ED3HSC: U3 Health Safety & Security",90,19
+18/05/2023, 1:30PM,Outside Area,EDEXL/GCSE,GCSE,1CN0 1H,"Listening (H) ",45,1
+18/05/2023, 2:30PM,Outside Area,EDEXL/GCSE,GCSE,1CN0 3H,"Reading (H) ",65,1
+19/05/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",113,5
+19/05/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 1H,"Non Calculator (H) ",113,2
+19/05/2023, 9:00AM,Creative Space,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",113,1
+19/05/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",90,1
+19/05/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 1H,"Non Calculator (H) ",90,7
+19/05/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",113,4
+19/05/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 1H,"Non Calculator (H) ",113,8
+19/05/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 1F,"Non Calculator (F) ",90,32
+19/05/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 1H,"Non Calculator (H) ",90,45
+19/05/2023, 9:00AM,Outside Area,EDEXL/GCSE,GCSE,1MA1 1H,"Non Calculator (H) ",90,1
+19/05/2023, 9:00AM,Science Lab 4,EDEXL/GCE,GCE,9PS0 01,"Foundations in Psychology",120,11
+19/05/2023, 1:30PM,H&S Development Base G019,EDEXL/GCSE,GCSE,1PS0 01,"Paper One",105,1
+19/05/2023, 1:30PM,H&S Learning Base G018,OCR,GCSE,J277/01,"Comp Sci: Computer Systems Wrtn",113,4
+19/05/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1PS0 01,"Paper One",105,7
+19/05/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCSE,J277/01,"Comp Sci: Computer Systems Wrtn",90,23
+19/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1PS0 01,"Paper One",105,20
+19/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,8FM0 2E,"F.Stats.1 & F.Mech.1",100,1
+19/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,584202,"DI3IT : U2 Global Information",90,7
+19/05/2023, 1:30PM,Outside Area,EDEXL/GCSE,GCSE,1PS0 01,"Paper One",105,1
+19/05/2023, 3:20PM,Multi Purpose Hall 2028,RSA,CAMX,584202,"DI3IT : U2 Global Information",90,1
+22/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J248/01,"Chem A (Gtwy Sci) : Paper 1 (Fnd) Wtn",132,5
+22/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J248/01,"Chem A (Gtwy Sci) : Paper 1 (Fnd) Wtn",105,4
+22/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J248/03,"Chem A (Gtwy Sci) : Paper 3 (Hgh) Wtn",105,4
+22/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J248/01,"Chem A (Gtwy Sci) : Paper 1 (Fnd) Wtn",132,10
+22/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J248/03,"Chem A (Gtwy Sci) : Paper 3 (Hgh) Wtn",132,1
+22/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J248/01,"Chem A (Gtwy Sci) : Paper 1 (Fnd) Wtn",105,40
+22/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J248/03,"Chem A (Gtwy Sci) : Paper 3 (Hgh) Wtn",105,27
+22/05/2023, 9:00AM,Outside Area,OCR,GCSE,J250/09,"Comb Sci A: Paper 9 (Hgh) Wrtn",70,1
+22/05/2023, 9:00AM,Science Lab 4,OCR,GCSE,J248/01,"Chem A (Gtwy Sci) : Paper 1 (Fnd) Wtn",132,3
+22/05/2023, 1:30PM,H&S Learning Base G018,AQA,GCSE,8035/1,"Geography Paper 1",113,4
+22/05/2023, 1:30PM,Multi Purpose Hall 2028,AQA,GCSE,8035/1,"Geography Paper 1",90,8
+23/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H032/02,"Chemistry A: Depth in Chemistry Wtn",113,2
+23/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,583304,"DI3HSC: U4 Anatomy & Physiology",150,1
+23/05/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587104,"ED3HSC: U4 Anatomy & Physiology",150,5
+23/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9AA0 01,"Translation Into English",150,2
+23/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583104,"EC3HSC: U4 Anatomy & Physiology",120,5
+23/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583304,"DI3HSC: U4 Anatomy & Physiology",120,10
+23/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587104,"ED3HSC: U4 Anatomy & Physiology",120,21
+23/05/2023, 4:05PM,Multi Purpose Hall 2028,RSA,CAMX,583104,"EC3HSC: U4 Anatomy & Physiology",120,1
+24/05/2023, 9:00AM,Computing Lab 4 1023,AQA,GCSE,8702/2,"Eng Lit Paper 2",169,5
+24/05/2023, 9:00AM,H&S Development Base G019,AQA,GCSE,8702/2,"Eng Lit Paper 2",135,8
+24/05/2023, 9:00AM,H&S Learning Base G018,AQA,GCSE,8702/2,"Eng Lit Paper 2",169,12
+24/05/2023, 9:00AM,H&S Learning Base G018,RSA,CAMX,587203,"ED3SP : U3 Sports Organise & Develop",75,2
+24/05/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8702/2,"Eng Lit Paper 2",135,65
+24/05/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,582903,"DI3SP : U3 Sports Organise & Develop",60,1
+24/05/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587203,"ED3SP : U3 Sports Organise & Develop",60,9
+24/05/2023, 9:00AM,Outside Area,AQA,GCSE,8702/2,"Eng Lit Paper 2",135,1
+24/05/2023, 9:00AM,Science Lab 4,AQA,GCSE,8702/2,"Eng Lit Paper 2",169,3
+24/05/2023, 1:30PM,H&S Learning Base G018,OCR,CNAT,R041/01,"Sprt Sci: Risk of Sprt Injuries Wrtn",60,2
+24/05/2023, 1:30PM,H&S Learning Base G018,AQA,GCE,7717/1A,"English Literature B ADV Paper 1A",188,4
+24/05/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCE,H156/02,"Physics A: Depth in Physics Wrtn",90,4
+24/05/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCE,H556/01,"Physics A: Modelling Physics Wtn",169,4
+25/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J249/01,"Physics A (Gtwy Sci) : Paper 1 Fnd Wtn",132,4
+25/05/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J249/03,"Physics A (Gtwy Sci) : Paper 3 Hgh Wtn",132,1
+25/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J249/01,"Physics A (Gtwy Sci) : Paper 1 Fnd Wtn",105,3
+25/05/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J249/03,"Physics A (Gtwy Sci) : Paper 3 Hgh Wtn",105,5
+25/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J249/01,"Physics A (Gtwy Sci) : Paper 1 Fnd Wtn",132,9
+25/05/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J249/03,"Physics A (Gtwy Sci) : Paper 3 Hgh Wtn",132,2
+25/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J249/01,"Physics A (Gtwy Sci) : Paper 1 Fnd Wtn",105,31
+25/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J249/03,"Physics A (Gtwy Sci) : Paper 3 Hgh Wtn",105,35
+25/05/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H020/02,"Biology A: Depth in Biology Wrtn",90,1
+25/05/2023, 9:00AM,Outside Area,OCR,GCSE,J250/11,"Comb Sci A: Paper 11 (Hgh) Wrtn",70,1
+25/05/2023, 9:00AM,Science Lab 4,OCR,GCSE,J249/01,"Physics A (Gtwy Sci) : Paper 1 Fnd Wtn",132,3
+25/05/2023, 1:30PM,H&S Learning Base G018,OCR,GCSE,J277/02,"Comp Sci: Comp Thnk Algrthm Prgrm Wtn",113,4
+25/05/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCE,GCE,9PS0 02,"Applications of Psych. ",120,1
+25/05/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCSE,J277/02,"Comp Sci: Comp Thnk Algrthm Prgrm Wtn",90,23
+25/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9PS0 02,"Applications of Psych. ",120,10
+25/05/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,584203,"DI3IT : U3 Cyber Security",60,8
+26/05/2023, 9:00AM,Outside Area,AQA,GCE,7716/2A,"English Literature B AS Paper 2A",90,1
+26/05/2023, 1:30PM,H&S Development Base G019,EDEXL/GCSE,GCSE,1PS0 02,"Paper Two",80,1
+26/05/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1PS0 02,"Paper Two",80,7
+26/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1PS0 02,"Paper Two",80,20
+26/05/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1CN0 4H,"Writing (H) ",85,1
+26/05/2023, 1:30PM,Outside Area,EDEXL/GCSE,GCSE,1PS0 02,"Paper Two",80,1
+05/06/2023, 9:00AM,Computing Lab 4 1023,AQA,GCSE,8700/1,"English Language Paper 1",132,5
+05/06/2023, 9:00AM,H&S Development Base G019,AQA,GCSE,8700/1,"English Language Paper 1",105,8
+05/06/2023, 9:00AM,H&S Learning Base G018,AQA,GCSE,8700/1,"English Language Paper 1",132,12
+05/06/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8700/1,"English Language Paper 1",105,70
+05/06/2023, 9:00AM,Outside Area,AQA,GCSE,8700/1,"English Language Paper 1",105,1
+05/06/2023, 9:00AM,Science Lab 4,AQA,GCSE,8700/1,"English Language Paper 1",132,3
+05/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,CNAT,R021/01,"H & SC: Ess Values of Care Written",60,1
+05/06/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9PS0 03,"Psychological Skills",120,11
+06/06/2023, 9:00AM,H&S Development Base G019,RSA,CAMX,583306,"DI3HSC: U6 Personal & Pers Centre Appro",113,1
+06/06/2023, 9:00AM,H&S Learning Base G018,RSA,CAMX,583306,"DI3HSC: U6 Personal & Pers Centre Appro",90,1
+06/06/2023, 9:00AM,H&S Learning Base G018,RSA,CAMX,587106,"ED3HSC: U6 Personal & Pers Centre Appro",113,2
+06/06/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,583306,"DI3HSC: U6 Personal & Pers Centre Appro",90,1
+06/06/2023, 9:00AM,Multi Purpose Hall 2028,RSA,CAMX,587106,"ED3HSC: U6 Personal & Pers Centre Appro",90,15
+06/06/2023, 9:00AM,Outside Area,AQA,GCSE,8698/LH,"Spanish Listening Test Tier H",45,1
+06/06/2023,10:00AM,Outside Area,AQA,GCSE,8698/RH,"Spanish Reading Test Tier H",60,1
+06/06/2023, 1:30PM,H&S Development Base G019,RSA,CAMX,587204,"ED3SP : U4 Work Safe in Sport Exehlth",90,1
+06/06/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCE,GCE,9MA0 01,"Pure Mathematics 1",150,6
+06/06/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587204,"ED3SP : U4 Work Safe in Sport Exehlth",113,2
+06/06/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9MA0 01,"Pure Mathematics 1",120,5
+06/06/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9AA0 02,"Translation Into Arabic",160,2
+06/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,582904,"DI3SP : U4 Work Safe in Sport Exehlth",90,2
+06/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587204,"ED3SP : U4 Work Safe in Sport Exehlth",90,10
+07/06/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",113,5
+07/06/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 2H,"Calculator (H) ",113,2
+07/06/2023, 9:00AM,Creative Space,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",113,1
+07/06/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",90,1
+07/06/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 2H,"Calculator (H) ",90,7
+07/06/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",113,4
+07/06/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 2H,"Calculator (H) ",113,8
+07/06/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 2F,"Calculator (F) ",90,32
+07/06/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 2H,"Calculator (H) ",90,45
+07/06/2023, 9:00AM,Outside Area,EDEXL/GCSE,GCSE,1MA1 2H,"Calculator (H) ",90,1
+07/06/2023, 1:30PM,H&S Development Base G019,OCR,GCE,H420/01,"Biology A: Biological Processes Wtn",169,1
+07/06/2023, 1:30PM,H&S Learning Base G018,OCR,GCE,H420/01,"Biology A: Biological Processes Wtn",169,4
+07/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCE,H420/01,"Biology A: Biological Processes Wtn",135,7
+08/06/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCE,7717/2A,"English Literature B ADV Paper 2A",225,4
+09/06/2023, 9:00AM,H&S Development Base G019,OCR,GCE,H556/02,"Physics A: Exploring Physics Wtn",169,4
+09/06/2023, 9:00AM,H&S Learning Base G018,AQA,GCSE,8035/2,"Geography Paper 2",113,4
+09/06/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8035/2,"Geography Paper 2",90,8
+09/06/2023, 1:30PM,Computing Lab 4 1023,OCR,GCSE,J247/02,"Biology A (Gtway) : Paper 2 (Fnd) Wtn",132,4
+09/06/2023, 1:30PM,Computing Lab 4 1023,OCR,GCSE,J247/04,"Biology A (Gtway) : Paper 4 (Hgh) Wtn",132,1
+09/06/2023, 1:30PM,H&S Development Base G019,OCR,GCSE,J247/02,"Biology A (Gtway) : Paper 2 (Fnd) Wtn",105,4
+09/06/2023, 1:30PM,H&S Development Base G019,OCR,GCSE,J247/04,"Biology A (Gtway) : Paper 4 (Hgh) Wtn",105,4
+09/06/2023, 1:30PM,H&S Learning Base G018,OCR,GCSE,J247/02,"Biology A (Gtway) : Paper 2 (Fnd) Wtn",132,10
+09/06/2023, 1:30PM,H&S Learning Base G018,OCR,GCSE,J247/04,"Biology A (Gtway) : Paper 4 (Hgh) Wtn",132,1
+09/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCSE,J247/02,"Biology A (Gtway) : Paper 2 (Fnd) Wtn",105,36
+09/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCSE,J247/04,"Biology A (Gtway) : Paper 4 (Hgh) Wtn",105,31
+09/06/2023, 1:30PM,Outside Area,OCR,GCSE,J250/08,"Comb Sci A: Paper 8 (Hgh) Wrtn",70,1
+09/06/2023, 1:30PM,Science Lab 4,OCR,GCSE,J247/02,"Biology A (Gtway) : Paper 2 (Fnd) Wtn",132,3
+12/06/2023, 9:00AM,Computing Lab 4 1023,OCR,GCE,H432/01,"Chem A: Prdc Tble Elmnt Phy Chm Wtn",169,1
+12/06/2023, 9:00AM,Computing Lab 4 1023,AQA,GCSE,8700/2,"English Language Paper 2",132,5
+12/06/2023, 9:00AM,H&S Development Base G019,OCR,GCE,H432/01,"Chem A: Prdc Tble Elmnt Phy Chm Wtn",169,3
+12/06/2023, 9:00AM,H&S Development Base G019,AQA,GCSE,8700/2,"English Language Paper 2",105,8
+12/06/2023, 9:00AM,H&S Learning Base G018,AQA,GCSE,8700/2,"English Language Paper 2",132,12
+12/06/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8700/2,"English Language Paper 2",105,70
+12/06/2023, 9:00AM,Outside Area,AQA,GCSE,8700/2,"English Language Paper 2",105,1
+12/06/2023, 9:00AM,Science Lab 4,AQA,GCSE,8700/2,"English Language Paper 2",132,3
+12/06/2023, 1:30PM,H&S Development Base G019,OCR,GCE,H446/01,"Comp Sci: Computer Systems Wrtn",188,1
+12/06/2023, 1:30PM,H&S Learning Base G018,OCR,GCE,H446/01,"Comp Sci: Computer Systems Wrtn",188,4
+12/06/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,583307,"DI3HSC: U7 Safeguarding",113,1
+12/06/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587107,"ED3HSC: U7 Safeguarding",113,5
+12/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCE,H446/01,"Comp Sci: Computer Systems Wrtn",150,14
+12/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,583307,"DI3HSC: U7 Safeguarding",90,10
+12/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587107,"ED3HSC: U7 Safeguarding",90,26
+13/06/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J248/02,"Chem A (Gtwy Sci) : Paper 2 (Fnd) Wtn",132,5
+13/06/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J248/02,"Chem A (Gtwy Sci) : Paper 2 (Fnd) Wtn",105,4
+13/06/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J248/04,"Chem A (Gtwy Sci) : Paper 4 (Hgh) Wtn",105,4
+13/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J248/02,"Chem A (Gtwy Sci) : Paper 2 (Fnd) Wtn",132,10
+13/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J248/04,"Chem A (Gtwy Sci) : Paper 4 (Hgh) Wtn",132,1
+13/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J248/02,"Chem A (Gtwy Sci) : Paper 2 (Fnd) Wtn",105,40
+13/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J248/04,"Chem A (Gtwy Sci) : Paper 4 (Hgh) Wtn",105,27
+13/06/2023, 9:00AM,Outside Area,OCR,GCSE,J250/10,"Comb Sci A: Paper 10 (Hgh) Wrtn",70,1
+13/06/2023, 9:00AM,Science Lab 4,OCR,GCSE,J248/02,"Chem A (Gtwy Sci) : Paper 2 (Fnd) Wtn",132,3
+13/06/2023, 1:30PM,Creative Space,EDEXL/GCE,GCE,9AA0 03,"Listening, Reading, Writing",135,2
+13/06/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCE,GCE,9MA0 02,"Pure Mathematics 2",150,6
+13/06/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9MA0 02,"Pure Mathematics 2",120,5
+13/06/2023, 1:30PM,Multi Purpose Hall 2028,AQA,GCSE,8698/WH,"Spanish Writing Test Tier H",75,1
+14/06/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",113,5
+14/06/2023, 9:00AM,Computing Lab 4 1023,EDEXL/GCSE,GCSE,1MA1 3H,"Calculator (H) ",113,2
+14/06/2023, 9:00AM,Creative Space,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",113,1
+14/06/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",90,1
+14/06/2023, 9:00AM,H&S Development Base G019,EDEXL/GCSE,GCSE,1MA1 3H,"Calculator (H) ",90,7
+14/06/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",113,4
+14/06/2023, 9:00AM,H&S Learning Base G018,EDEXL/GCSE,GCSE,1MA1 3H,"Calculator (H) ",113,8
+14/06/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 3F,"Calculator (F) ",90,32
+14/06/2023, 9:00AM,Multi Purpose Hall 2028,EDEXL/GCSE,GCSE,1MA1 3H,"Calculator (H) ",90,45
+14/06/2023, 9:00AM,Outside Area,EDEXL/GCSE,GCSE,1MA1 3H,"Calculator (H) ",90,1
+14/06/2023, 1:30PM,Creative Space,AQA,GCSE,8688/LH,"Polish Listening Test Tier H",45,1
+14/06/2023, 1:30PM,H&S Development Base G019,RSA,CAMX,587221,"ED3SP : U21 the Business of Sport",90,1
+14/06/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587221,"ED3SP : U21 the Business of Sport",113,6
+14/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587221,"ED3SP : U21 the Business of Sport",90,12
+14/06/2023, 2:30PM,Creative Space,AQA,GCSE,8688/RH,"Polish Reading Test Tier H",60,1
+15/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H556/03,"Physics A: Unified Physics Wtn",113,4
+16/06/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J249/02,"Physics A (Gtwy Sci) : Paper 2 Fnd Wtn",132,4
+16/06/2023, 9:00AM,Computing Lab 4 1023,OCR,GCSE,J249/04,"Physics A (Gtwy Sci) : Paper 4 Hgh Wtn",132,1
+16/06/2023, 9:00AM,Computing Lab 4 1023,OCR,GCE,H420/02,"Biology A: Biological Diversity Wtn",169,1
+16/06/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J249/02,"Physics A (Gtwy Sci) : Paper 2 Fnd Wtn",105,3
+16/06/2023, 9:00AM,H&S Development Base G019,OCR,GCSE,J249/04,"Physics A (Gtwy Sci) : Paper 4 Hgh Wtn",105,5
+16/06/2023, 9:00AM,H&S Development Base G019,OCR,GCE,H420/02,"Biology A: Biological Diversity Wtn",135,3
+16/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J249/02,"Physics A (Gtwy Sci) : Paper 2 Fnd Wtn",132,9
+16/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCSE,J249/04,"Physics A (Gtwy Sci) : Paper 4 Hgh Wtn",132,2
+16/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCE,H420/02,"Biology A: Biological Diversity Wtn",169,1
+16/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J249/02,"Physics A (Gtwy Sci) : Paper 2 Fnd Wtn",105,31
+16/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCSE,J249/04,"Physics A (Gtwy Sci) : Paper 4 Hgh Wtn",105,35
+16/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H420/02,"Biology A: Biological Diversity Wtn",135,7
+16/06/2023, 9:00AM,Outside Area,OCR,GCSE,J250/12,"Comb Sci A: Paper 12 (Hgh) Wrtn",70,1
+16/06/2023, 9:00AM,Science Lab 4,OCR,GCSE,J249/02,"Physics A (Gtwy Sci) : Paper 2 Fnd Wtn",132,3
+16/06/2023, 1:30PM,H&S Learning Base G018,AQA,GCSE,8035/3,"Geography Paper 3",94,4
+16/06/2023, 1:30PM,H&S Learning Base G018,RSA,CAMX,587125,"ED3HSC: U25 Research Method H & SC & CC",150,2
+16/06/2023, 1:30PM,Multi Purpose Hall 2028,AQA,GCSE,8035/3,"Geography Paper 3",75,8
+16/06/2023, 1:30PM,Multi Purpose Hall 2028,RSA,CAMX,587125,"ED3HSC: U25 Research Method H & SC & CC",120,15
+19/06/2023, 9:00AM,H&S Development Base G019,OCR,GCE,H446/02,"Comp Sci: Algrthms & Prgrming Wrtn",188,1
+19/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCE,H446/02,"Comp Sci: Algrthms & Prgrming Wrtn",188,4
+19/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H446/02,"Comp Sci: Algrthms & Prgrming Wrtn",150,14
+19/06/2023, 1:30PM,Creative Space,OCR,GCE,H432/02,"Chem A: Synths & Anlytcl Tchnqs Wtn",169,1
+19/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,GCE,H432/02,"Chem A: Synths & Anlytcl Tchnqs Wtn",169,3
+20/06/2023, 1:30PM,H&S Learning Base G018,EDEXL/GCE,GCE,9MA0 03,"Statistics & Mechanics",150,6
+20/06/2023, 1:30PM,Multi Purpose Hall 2028,EDEXL/GCE,GCE,9MA0 03,"Statistics & Mechanics",120,5
+21/06/2023, 9:00AM,H&S Development Base G019,OCR,GCE,H420/03,"Biology A: Unified Biology Wtn",113,1
+21/06/2023, 9:00AM,H&S Learning Base G018,OCR,GCE,H420/03,"Biology A: Unified Biology Wtn",113,4
+21/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H420/03,"Biology A: Unified Biology Wtn",90,7
+21/06/2023, 9:00AM,Multi Purpose Hall 2028,AQA,GCSE,8688/WH,"Polish Writing Test Tier H",75,1
+23/06/2023, 9:00AM,Multi Purpose Hall 2028,OCR,GCE,H432/03,"Chem A: Unified Chemistry Wtn",113,3
+23/06/2023, 9:00AM,Outside Area,OCR,GCE,H432/03,"Chem A: Unified Chemistry Wtn",113,1
+23/06/2023, 1:30PM,Multi Purpose Hall 2028,OCR,FSMQ,6993/01,"Maths: Additional Maths Paper 1",120,8
+
+

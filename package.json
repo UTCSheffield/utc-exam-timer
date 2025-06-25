@@ -11,10 +11,11 @@
     "xlsx": "^0.18.5",
     "js-yaml": "^4.1.0",
     "directory-tree": "^3.5.1",
-    "luxon": "^3.3.0",
+    "luxon": "^3.4.4",
     "deep-copy": "^1.4.2",
-    "csv-parse": "^5.3.10",
-    "console-once": "^1.0.0"
+    "csv-parse": "^5.5.2",
+    "console-once": "^1.0.0",
+    "ics": "^3.5.0"
   },
   "engines": {
     "node": "16.x"

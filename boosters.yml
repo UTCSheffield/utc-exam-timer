@@ -1,259 +1,284 @@
 %YAML 1.2
 ---
 -
-  Date: Monday 15 May 2023
+  Date: Thursday 8 May 2025
   Sessions:
     - Session: am
       Boosters:
-      - Booster: Cam Tech IT
-        Time: 7.45am
-        Room: CL2
-        Staff: DPA
-- 
-  Date: Tuesday 16 May 2023
-  Sessions:
-    - Session: am
-      Boosters:
-      - Booster : Biology Higher
-        Time: 7.45am
-        Room: SL1
-        Staff: GSL
-      - Booster: Biology Foundation
-        Time: 7.45am
-        Room: SL3
-        Staff: JTO
-- 
-  Date: Wednesday 17 May 2023
-  Sessions:
-    - Session: am
-      Boosters:
-      - Booster : English
+      - Booster: Psychology
         Time: 8.00am
-        Room: LB6, 7 & 8
-        Staff: CWR/MKA/KWI
-    - Session: pm
-      Boosters:
-      - Booster: Sport
-        Time: 12.15pm
-        Room: LB2
-        Staff: AOL
-- 
-  Date: Wednesday 24 May 2023
-  Sessions:
-    - Session: am
-      Boosters:
-      - Booster: Cam Tech Sport
-        Time: 7.45pm
-        Room: LB9
-        Staff: KLO
-      - Booster : English
-        Time: 8.00am
-        Room: LB6, 7 & 8
-        Staff: MKA/CWR/KWI
-    - Session: pm
-      Boosters:
-      - Booster: Cam Nat Sport
-        Time: 12.15pm
-        Room: LB2
-        Staff: AOL
-      - Booster : A Level English
-        Time: 12.10pm
-        Room: LB6
-        Staff: MKA
+        Room: Sports Lab
+        Staff: WRU
 -
-  Date: Thursday 25 May 2023
+  Date: Friday 9 May 2025
+  Sessions:
+    - Session: am
+      Boosters:
+      - Booster: Sociology
+        Time: 8.00am
+        Room: LB9
+        Staff: RDA & RDO
+-
+  Date: Monday 12 May 2025
+  Sessions:
+    - Session: am
+      Boosters:
+      - Booster : English Lit
+        Time: 8.00am
+        Room: 7 & 8
+        Staff: MKA/CWR/FMA
+    - Session: pm
+      Boosters:
+      - Booster: Comp Sci 
+        Time: 12.10pm
+        Room: Sports Lab
+        Staff: STO
+- 
+  Date: Wednesday 15 May 2024
+  Sessions:
+    - Session: pm
+      Boosters:
+      - Booster: Psychology 
+        Time: 12.10pm
+        Room: Sports Lab
+        Staff: RDA
+      - Booster : Computer Science
+        Time: 12.10pm
+        Room: SOC
+        Staff: IAH
+- 
+  Date: Thursday 16 May 2024
+  Sessions:
+    - Session: am
+      Boosters:
+      - Booster: Maths
+        Time: 8.00am
+        Room: Maths Rooms
+        Staff: Maths
+- 
+  Date: Friday 17 May 2024
+  Sessions:
+    - Session: am
+      Boosters:
+      - Booster: Science Foundation & Combined
+        Time: 8.00am
+        Room: Sports Lab
+        Staff: SSH
+      - Booster: Chemistry Higher
+        Time: 8.00am
+        Room: SL5
+        Staff: JLE
+    - Session: pm
+      Boosters:
+      - Booster: Geography
+        Time: 11.15pm
+        Room: Sports Lab
+        Staff: MWR
+-
+  Date: Monday 20 May 2024
   Sessions:
   - Session: am
     Boosters:
-    - Booster: Biology Higher
-      Time : 7.45am
-      Room: SL1
-      Staff: GSL
-    - Booster: Biology Foundation
-      Time : 7.45am
-      Room: SL2
-      Staff: GSL
+    - Booster : English
+      Time: 8.00am
+      Room: LB6, 7 & 8
+      Staff: MKA/CWR/FMA
   - Session: pm
     Boosters:
-    - Booster: Cam Tech
-      Time: 12.15pm
-      Room: SOC
-      Staff: IAH 
-    - Booster: Comp Sci
+    - Booster: Sports Science
+      Time: 12.10pm
+      Room: Sports Labs
+      Staff: AOL
+-
+  Date: Tuesday 21 May 2024
+  Sessions:
+  - Session: pm
+    Boosters:
+    - Booster: Computer Science
       Time: 12.10pm
       Room: CL3
       Staff: STO
--
-  Date: Monday 5 June 2023
-  Sessions:
-  - Session: am
-    Boosters:
-    - Booster: English Language
-      Time : 7.45am
-      Room: LB6, 7 & 8
-      Staff: MKA/CWR/KWI
-  - Session : pm
-    Boosters:
-    - Booster : GCE Psychology
-      Time: 12.00pm
-      Room: LB3
-      Staff: SBA
--
-  Date: Tuesday 6 June 2023
-  Sessions:
-  - Session: pm
-    Boosters:
-    - Booster: GCE Mathematics
+    - Booster: Sociology
       Time: 12.10pm
-      Room: LB11
-      Staff: OMC
+      Room: Sports Lab
+      Staff: SSL
 -
-  Date : Wednesday 7 June 2023
+  Date : Wednesday 22 May 2024
   Sessions:
   - Session: am
     Boosters:
-    - Booster: Mathematics Higher
+    - Booster: Science Foundation & Combined
       Time: 8.00am
-      Room: LB11
-      Staff: SLE/OMC
-    - Booster: Mathematics Foundation
+      Room: Sports Lab
+      Staff: JLE
+    - Booster: Physics Higher
       Time: 8.00am
-      Room: LB13
-      Staff: PCO/EHO
+      Room: SL2
+      Staff: SSH  
   - Session: pm
     Boosters: 
-    - Booster: GCE Biology
+    - Booster: IT
       Time: 12.10pm
-      Room: SL3
-      Staff: JTO
+      Room: Sports Lab
+      Staff: IAH
 -
-  Date : Thursday 8 June 2023
+  Date : Thursday 23 May 2024
   Sessions:
   - Session: am
     Boosters:
-    - Booster: GCE English
-      Time: 7.45am 
-      Room: LB6
-      Staff: MKA 
+    - Booster : English
+      Time: 8.00am
+      Room: LB6, 7 & 8
+      Staff: MKA/CWR/FMA
+    - Booster: Psychology 
+      Time: 12.10pm
+      Room: Sports Lab
+      Staff: RDA
+    - Booster: 11Y Maths
+      Time: 1.40pm
+      Room: Maths Rooms
+      Staff: RLA/PCO
+    - Booster: 11X Maths
+      Time: 2.35pm
+      Room: Maths Rooms
+      Staff: RLA/PCO
 -
-  Date : Friday 9 June 2023
+  Date : Monday 3 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
+    - Booster: Maths
+      Time: 8.00am
+      Room: Maths Rooms
+      Staff: Maths
+-
+  Date : Wednesday 5 June 2024
   Sessions:
   - Session: am
     Boosters:
     - Booster: Geography
-      Time: 8.00am
+      Time: 12.10pm
       Room: LB10
-      Staff: CFL
-  - Session: pm
-    Boosters:
-    - Booster: Biology Foundation
-      Time: 12.15pm
-      Room: SL1
-      Staff: GSL 
-    - Booster: Biology Higher
-      Time: 12.15pm
-      Room: SL3
-      Staff: JTO 
--
-  Date : Monday 12 June 2023
-  Sessions:
-  - Session: am
-    Boosters: 
-    - Booster: English Language
-      Time: 7.45am 
-      Room: LB6, 7 & 8
-      Staff: MKA/CWR/KWI
-  - Session: pm
-    Boosters:
-    - Booster: GCE Computer Science
-      Time: 12.10pm
-      Room: SOC
-      Staff: IAH
--
-  Date : Tuesday 13 June 2023
-  Sessions:
-  - Session: am
-    Boosters:
-    - Booster: Chemistry Higher
-      Time: 7.45am
-      Room: SL2
-      Staff: EAS
-    - Booster: Chemistry Foundation
-      Time: 7.45am
-      Room: SL5
-      Staff: SSH
-  - Session: pm
-    Boosters:
-    - Booster: GCE Mathematics
-      Time: 12.10pm
-      Room: LB11
-      Staff: OMC
--
-  Date : Wednesday 14 June 2023
-  Sessions:
-  - Session: am
-    Boosters:
-    - Booster: Mathematics Higher
-      Time: 8.00am
-      Room: LB11
-      Staff: SLE/OMC
-    - Booster: Mathematics Foundation
-      Time: 8.00am
-      Room: LB13
-      Staff: PCO/EHO
+      Staff: MWR
   - Session: pm
     Boosters:
     - Booster: Cambridge Technical Level 3 Sport
-      Time: 12.15pm
+      Time: 12.10pm
       Room: LB2
       Staff: AOL
+    - Booster: Science
+      Time: P5
+      Room: SL2-5
+      Staff: SSH/JTO/LHE/JLE
 -
-  Date : Friday 16 June 2023
+  Date : Thursday 6 June 2024
   Sessions:
   - Session: am
     Boosters:
-    - Booster: Physics Higher
-      Time: 7.45am
-      Room: SL1
+    - Booster : English
+      Time: 8.00am
+      Room: LB6, 7 & 8
+      Staff: MKA/CWR/FMA
+  - Session: pm
+    Boosters:
+    - Booster: Science
+      Time: P5
+      Room: SL2-5
+      Staff: SSH/JTO/LHE/JLE
+-        
+  Date : Friday 7 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
+    - Booster: Maths
+      Time: P2&3
+      Room: Maths Rooms
+      Staff: Maths
+  - Session: pm
+    Boosters:
+    - Booster: Science Foundation & Combined
+      Time: 12.10am
+      Room: Sports Lab
+      Staff: JTO
+    - Booster: Biology Higher
+      Time: 12.10am
+      Room: SL4
+      Staff: LHE  
+-
+  Date : Monday 10 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
+    - Booster: Maths
+      Time: 8.00am
+      Room: Maths Rooms
+      Staff: Maths
+-
+  Date : Tuesday 11 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
+    - Booster: Science Foundation & Combined
+      Time: 8.00am
+      Room: Sports Lab
       Staff: SSH
-    - Booster: Physics Foundation
-      Time: 7.45am
-      Room: SL2
-      Staff: GSL
+    - Booster: Chemistry Higher
+      Time: 8.00am
+      Room: SL5
+      Staff: JLE
+-
+  Date : Wednesday 12 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
     - Booster: GCE Biology
-      Time: 7.45am
+      Time: 8.00am  
       Room: SL3
       Staff: JTO
-  - Session: pm
+    - Booster: Geography
+      Time: P3 & P4
+      Room: Sports Lab
+      Staff: MWR
+    - Booster: Further Maths
+      Time: P3 & P4
+      Room: LB9
+      Staff: TBC
+-
+  Date : Thursday 13 June 2024
+  Sessions:
+  - Session: am
+    Boosters:
+    - Booster: Further Maths
+      Time: P3 & P4
+      Room: LB10
+      Staff: TBC
+-
+  Date : Friday 14 June 2024
+  Sessions:
+  - Session: am
     Boosters:
     - Booster: Geography
-      Time: 12.15pm
+      Time: 8.00pm
       Room: LB10
-      Staff: CFL
+      Staff: MWR
+    - Booster: Physics Foundation
+      Time: P3 & 12.10pm
+      Room: Sports Lab
+      Staff: LHE
+    - Booster: Science Combined
+      Time: P3 & 12.10pm
+      Room: SL5
+      Staff: JLE
+    - Booster: Physics Higher
+      Time: P3 & 12.10pm
+      Room: SL2
+      Staff: SSH
 -
-  Date : Monday 19 June 2023
+  Date : Monday 17 June 2024
   Sessions:
   - Session: am
     Boosters:
-    - Booster: GCE Computer
-      Time: 7.45am
-      Room: CL2
-      Staff: DPA
--
-  Date : Tuesday 20 June 2023
-  Sessions:
-  - Session: pm
-    Boosters:
-    - Booster: GCE Mathematics
-      Time: 12.10pm
-      Room: LB12
-      Staff: SLE
--
-  Date : Wednesday 21 June 2023
-  Sessions:
-  - Session: am
-    Boosters:
-    - Booster: GCE Biology
-      Time: 7.45am  
-      Room: SL3
-      Staff: JTO
+    - Booster: Further Maths
+      Time: P3 & P4
+      Room: LB10
+      Staff: TBC
